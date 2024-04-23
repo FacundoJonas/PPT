@@ -1,31 +1,33 @@
 
+Ä
+java:S1186A"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­Íñê8¦ÉÃÙğ1J$25884f30-d42d-4ddd-9bd0-bf587141c30f
 š
-java:S1450	"WRemove the "eleccion" field and declare it as a local variable in the relevant methods.(ûœ…Ø8­·äÅğ1J$e90c096d-74b3-4220-977a-42254c0b3e14
+java:S1450"WRemove the "eleccion" field and declare it as a local variable in the relevant methods.(ûœ…Ø8¦ÉÃÙğ1J$b8749612-fb06-4226-a327-33caa1524175
  
-java:S1450"]Remove the "estatusPartida" field and declare it as a local variable in the relevant methods.(¬´¶¸8®·äÅğ1J$a9dc6f2b-b41c-4203-b145-e07c0e63541b
+java:S1450"]Remove the "estatusPartida" field and declare it as a local variable in the relevant methods.(¬´¶¸8¦ÉÃÙğ1J$2d6eb680-545c-41e3-be2a-78844f0521c4
 œ
+java:S1450	"TRemove the "papel" field and declare it as a local variable in the relevant methods.(ÄÖ»Àıÿÿÿÿ8¦ÉÃÙğ1J$74b01925-68f8-44c2-8717-32b70561aff5
+˜
 java:S1450
-"TRemove the "papel" field and declare it as a local variable in the relevant methods.(ÄÖ»Àıÿÿÿÿ8°·äÅğ1J$eb18af0c-77dd-4247-9bf7-3d4968c21bf7
+"URemove the "piedra" field and declare it as a local variable in the relevant methods.(Ä¨ç8¶ÉÃÙğ1J$fda394f3-5b21-4008-b533-3d32b9364d63
 ˜
-java:S1450"URemove the "piedra" field and declare it as a local variable in the relevant methods.(Ä¨ç8±·äÅğ1J$a9cdf8e1-f778-4242-b1b5-fe4656172fee
-˜
-java:S1450"URemove the "tijera" field and declare it as a local variable in the relevant methods.(ïêŸü8±·äÅğ1J$aae1f930-9b36-49d9-8340-27eacea7e9bf
-
-java:S1450"ZRemove the "vidaJugador" field and declare it as a local variable in the relevant methods.(ÀóõÅ8²·äÅğ1J$5178629a-afd7-4591-a4c2-6b07518ba9fd
-^
-java:S3626'"Remove this redundant jump.(ûÁİ…8Ã·äÅğ1J$d170c8df-a339-42b5-a06e-9108884662a5
+java:S1450"URemove the "tijera" field and declare it as a local variable in the relevant methods.(ïêŸü8¶ÉÃÙğ1J$9f791129-3122-439b-9734-6a5f5145c6cf
 p
-java:S1068"-Remove this unused "idJugador" private field.(Ò•Û8Ê·äÅğ1J$ad289483-d281-4765-88bb-b470c848bada
-r
-java:S1068"/Remove this unused "vidaJugador" private field.(ÀóõÅ8Ë·äÅğ1J$63e3226e-a415-4b64-84de-69d912d4f738
+java:S3010#"(Remove this assignment of "vidaJugador".(êéŒÆûÿÿÿÿ8¶ÉÃÙğ1J$82c17ca1-17c1-4d86-90de-f6152472a090
+}
+java:S2209#"5Change this instance-reference to a static reference.(êéŒÆûÿÿÿÿ8¶ÉÃÙğ1J$c0ceb03d-6670-4bd9-a51b-d2e97bf95b77
+^
+java:S3626?"Remove this redundant jump.(ûÁİ…8¶ÉÃÙğ1J$d60ec35c-274a-4f8c-9d62-963aece7dd12
+~
+java:S26964"6Make the enclosing method "static" or remove this set.(ï©Ûœúÿÿÿÿ8¶ÉÃÙğ1J$f3dd3682-88e2-42c5-9746-49c20ea83172
 o
-java:S1068	",Remove this unused "eleccion" private field.(ûœ…Ø8Ì·äÅğ1J$9b459b99-0a88-40a6-8b8c-8acc7f1afb94
+java:S1068",Remove this unused "eleccion" private field.(ûœ…Ø8ÆÉÃÙğ1J$a1ac9516-6237-4349-9dc3-ddf244536833
 q
+java:S1068	")Remove this unused "papel" private field.(ÄÖ»Àıÿÿÿÿ8ÆÉÃÙğ1J$cd12be24-374b-4f84-a433-ae072c222997
+m
 java:S1068
-")Remove this unused "papel" private field.(ÄÖ»Àıÿÿÿÿ8Ì·äÅğ1J$45cebb3d-771e-472d-985a-22d6b46f081c
+"*Remove this unused "piedra" private field.(Ä¨ç8ÆÉÃÙğ1J$c8f8ec28-7660-4ea8-9ade-db59354018a7
 m
-java:S1068"*Remove this unused "piedra" private field.(Ä¨ç8Í·äÅğ1J$80a00b30-f6bf-4f7b-ab2b-eafb816a4148
-m
-java:S1068"*Remove this unused "tijera" private field.(ïêŸü8Î·äÅğ1J$21fcd736-8ed2-4103-b08a-6681380270f6
+java:S1068"*Remove this unused "tijera" private field.(ïêŸü8ÆÉÃÙğ1J$a8be83a2-bd16-48d3-bb81-17e30512cb84
 u
-java:S1068"2Remove this unused "estatusPartida" private field.(¬´¶¸8Î·äÅğ1J$a94d376d-577d-4a1b-9bc1-b7122ff67ee8
+java:S1068"2Remove this unused "estatusPartida" private field.(¬´¶¸8ÆÉÃÙğ1J$bf2caef3-58df-421c-aa0c-3bc0da4271f6

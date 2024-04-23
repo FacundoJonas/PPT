@@ -1,16 +1,40 @@
 package org.example;
 
-import org.example.model.Pelea;
-
 public class Jugador {
     private static int contadorJugadores = 0;
     private int idJugador;
-    private int vidaJugador = 100;
+    private static int vidaJugador = 100;
+    private static int vidaPc = 100;
     private int eleccion;
     private boolean papel;
     private boolean piedra;
     private boolean tijera;
     private int estatusPartida;
+
+    public static int getVidaPc() {
+        return vidaPc;
+    }
+
+    public static void setVidaPc(int vidaPc) {
+        Jugador.vidaPc = vidaPc;
+    }
+
+    public int getIdJugador() {
+        return idJugador;
+    }
+
+    public static int getVidaJugador() {
+        return vidaJugador;
+    }
+
+    public static void setVidaJugador(int vidaJugador) {
+        Jugador.vidaJugador = vidaJugador;
+    }
+
+    public Jugador(int vidaInicial) {
+        this.vidaJugador = vidaInicial;
+    }
+
 
     public Jugador() {
         // Asignar un ID único al jugador
@@ -38,8 +62,6 @@ public class Jugador {
         }
         return;
     }
-
-    public static void obtener() {
-        // Método de obtención de información (sin implementación actual)
+    public void obtener() {
     }
 }
