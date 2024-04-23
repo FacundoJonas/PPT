@@ -1,0 +1,27 @@
+
+
+java:S12260"EIntroduce a new variable instead of reusing the parameter "eleccion".(ŒŠ—ÍJ$36113bb8-1a14-4a3b-9e23-e1ef836b5ad4
+v
+java:S1118":Add a private constructor to hide the implicit public one.(½ €ëJ$d06e48e0-ad20-4768-968a-6b461f7d30b4
+
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ò±ÿ‹J$78057cfd-9b66-4647-abd1-524f4cf9e537
+f	java:S106"+Replace this use of System.out by a logger.(Ó¤ÈJ$84df6699-62ca-4388-ac0e-23f5bacd9b6d
+f	java:S106"+Replace this use of System.out by a logger.(º´îØJ$7c8e5fc0-e840-485d-ac20-0fbec8837d91
+k	java:S106"+Replace this use of System.out by a logger.(ß™¥ıùÿÿÿÿJ$4fbba214-1055-4c9e-b03f-11dbde9b3888
+k	java:S106"+Replace this use of System.out by a logger.(¹¸›èÿÿÿÿÿJ$57984790-1868-4675-8812-4d0fee3dac51
+f	java:S106"+Replace this use of System.out by a logger.(ÏÀ‚J$f938f5f4-7765-4cd6-a3b0-4964e19afd32
+f	java:S106"+Replace this use of System.out by a logger.(ô¢áJ$f4e89ab2-460c-4c3c-8bab-23fe9b262530
+k	java:S106"+Replace this use of System.out by a logger.(Øå˜úÿÿÿÿJ$aab3d0ba-bece-4002-808d-e3cd5630b368
+f	java:S106 "+Replace this use of System.out by a logger.(óíÿâJ$da779855-e3cb-4e59-96f4-2d2e4e10c5b3
+k	java:S106!"+Replace this use of System.out by a logger.(İğùàşÿÿÿÿJ$ad2fc896-7a0c-41f7-823e-d4eb7a481df2
+e	java:S106""+Replace this use of System.out by a logger.(ÍµƒWJ$c41a0c9f-c07a-4f3a-bc24-f8ebb14b46aa
+e	java:S106#"+Replace this use of System.out by a logger.(ŒáæoJ$6a61fb50-f632-4adc-a92b-cda0f7f6af2d
+U
+java:S2178'"Correct this "&" to "&&".( ³ÑßJ$66f32fc8-07f8-415a-acc9-3defbc822019
+e	java:S106("+Replace this use of System.out by a logger.(Ää€OJ$41750b53-373a-4cff-ae67-186d0decb893
+f	java:S106+"+Replace this use of System.out by a logger.(ô¢áJ$20b07b56-93c1-47af-8c21-03ea5a4ad340
+|
+java:S18546";Remove this useless assignment to local variable "scanner".(ù ƒ‘üÿÿÿÿJ$5de7c311-929b-4618-96b7-eb3979a59533
+m
+java:S14816",Remove this unused "scanner" local variable.(ù ƒ‘üÿÿÿÿJ$ea954c0e-866b-4f45-9264-84dea2719a95
+k	java:S1067"+Replace this use of System.out by a logger.(ˆ‹áŸúÿÿÿÿJ$a0435a3c-4f89-4020-878b-6fd7899c91eb
