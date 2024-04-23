@@ -2,14 +2,23 @@ package org.example;
 
 public class Jugador {
     private static int contadorJugadores = 0;
-    private int idJugador;
     private static int vidaJugador = 100;
     private static int vidaPc = 100;
+    private int idJugador;
     private int eleccion;
     private boolean papel;
     private boolean piedra;
     private boolean tijera;
     private int estatusPartida;
+
+    public Jugador(int vidaInicial) {
+        this.vidaJugador = vidaInicial;
+    }
+
+    public Jugador() {
+        // Asignar un ID único al jugador
+        this.idJugador = ++contadorJugadores;
+    }
 
     public static int getVidaPc() {
         return vidaPc;
@@ -17,10 +26,6 @@ public class Jugador {
 
     public static void setVidaPc(int vidaPc) {
         Jugador.vidaPc = vidaPc;
-    }
-
-    public int getIdJugador() {
-        return idJugador;
     }
 
     public static int getVidaJugador() {
@@ -31,17 +36,11 @@ public class Jugador {
         Jugador.vidaJugador = vidaJugador;
     }
 
-    public Jugador(int vidaInicial) {
-        this.vidaJugador = vidaInicial;
+    public int getIdJugador() {
+        return idJugador;
     }
 
-
-    public Jugador() {
-        // Asignar un ID único al jugador
-        this.idJugador = ++contadorJugadores;
-    }
-
-    public void jugar(int estatusPartida,int eleccion) {
+    public void jugar(int estatusPartida, int eleccion) {
         // Asignar el estado de la partida al jugador
         this.eleccion = eleccion;
         this.estatusPartida = estatusPartida;
@@ -56,12 +55,13 @@ public class Jugador {
                 piedra = true;
             } else if (eleccion == 2) {
                 papel = true;
-            }else if (eleccion == 3) {
+            } else if (eleccion == 3) {
                 tijera = true;
             }
         }
         return;
     }
+
     public void obtener() {
     }
 }

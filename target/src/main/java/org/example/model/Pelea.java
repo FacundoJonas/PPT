@@ -35,12 +35,14 @@ public class Pelea {
             int vidaJugador = jugador.getVidaJugador();
             int idJugador = jugador.getIdJugador();
             int vidaPc = jugador.getVidaPc();
-            while (vidaJugador > 0 || vidaPc > 0 ){
+            while (vidaJugador > 0 && vidaPc > 0 ){
                 //Primero el jugador ataca a la Pc
                 int danodeAtaque = DanoEfectuado.obtenerDanodeAtaque();
                 vidaPc -= danodeAtaque;
-                Pantalla.pelea(estatuspartida, eleccion, danodeAtaque, vidaPc, vidaJugador);
+                //PC Ataca Jugador
+                //int danoAtaquepc = DanoEfectuado.obtenerdanodeataque2();
                 //vidaJugador -= danodeAtaque;
+                Pantalla.pelea(estatuspartida, eleccion, danodeAtaque, vidaPc, vidaJugador);
 
             }
             //Ahora tenemos que tomar una eleccion con respecto a que ataque queremos realizar
