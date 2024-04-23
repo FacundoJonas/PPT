@@ -1,36 +1,30 @@
 
-
-java:S1450"TRemove the "papel" field and declare it as a local variable in the relevant methods.(Á³×€J$983d0afe-d890-435e-b5c5-b20ff1ca4e44
-–
-java:S1450"URemove the "piedra" field and declare it as a local variable in the relevant methods.(ÑøÚÈşÿÿÿÿJ$aaa05bec-1e6a-4993-af54-f2fbb5aa5372
-‘
-java:S1450"URemove the "tijera" field and declare it as a local variable in the relevant methods.(ãè¶•J$86b75645-493a-44d4-9fc0-967f11aa7cbd
-ƒ
-java:S1854"BRemove this useless assignment to local variable "estatuspartida".(Àç“¹ıÿÿÿÿJ$84e5e166-9cfa-4255-817c-41464b389b58
-|
-java:S1854"@Remove this useless assignment to local variable "danodeAtaque".(­Ø²J$c5ce9ca2-7676-43ac-8f25-1debb6b4f089
+—
+java:S1450"TRemove the "papel" field and declare it as a local variable in the relevant methods.(Á³×€8ŠÉïÓğ1J$76be3727-d8a6-44e3-a39f-16abe43e6ef0
+
+java:S1450"URemove the "piedra" field and declare it as a local variable in the relevant methods.(ÑøÚÈşÿÿÿÿ8ŠÉïÓğ1J$fcfcafa2-d5de-468b-b278-9b6821e40c74
+˜
+java:S1450"URemove the "tijera" field and declare it as a local variable in the relevant methods.(ãè¶•8ŠÉïÓğ1J$64f1fea7-0508-4d99-a097-e48b547cd662
+r	java:S106&"+Replace this use of System.out by a logger.(áÇüÿÿÿÿ8ªÉïÓğ1J$1c67b0a2-82b2-42e4-974c-d0a8791c63b9
+m	java:S106("+Replace this use of System.out by a logger.(ğË»©8ªÉïÓğ1J$c9c97ec7-af7a-48d3-824b-a256f6ebe990
 m
-java:S1481"1Remove this unused "danodeAtaque" local variable.(­Ø²J$8058a696-47d9-4afd-88c7-57c4e1e8b059
-k	java:S106&"+Replace this use of System.out by a logger.(áÇüÿÿÿÿJ$e8ec4ab3-2184-42e7-a057-73841723a664
-f	java:S106("+Replace this use of System.out by a logger.(ğË»©J$52d508bd-4702-4ec6-a9a6-366fa1030e65
-f
-java:S1068"+Remove this unused "idpelea" private field.(Í„EJ$3addb1a4-ab48-4c14-89f5-74c1a9d21712
+java:S1068"+Remove this unused "idpelea" private field.(Í„E8ªÉïÓğ1J$e7b2dc94-8690-4f81-91ca-ab68465c293d
+y
+java:S1068"1Remove this unused "ganadorronda1" private field.(Ã„Ä¿şÿÿÿÿ8ªÉïÓğ1J$4c3e4565-4820-4e5e-a49b-4212ab975c89
+y
+java:S1068"1Remove this unused "ganadorronda2" private field.(É“ˆ€ÿÿÿÿÿ8ªÉïÓğ1J$2df6218b-d612-4d12-af4b-4d8160e7a0b9
 r
-java:S1068"1Remove this unused "ganadorronda1" private field.(Ã„Ä¿şÿÿÿÿJ$51c7cdf5-53ff-4eb5-a0a9-ce748985317b
-r
-java:S1068"1Remove this unused "ganadorronda2" private field.(É“ˆ€ÿÿÿÿÿJ$5c1fd376-7a9a-4e40-8152-d1929efbd891
-k
-java:S1068	"0Remove this unused "ganadorfinal" private field.(ÆÚÚmJ$ded20434-b723-4af0-8fec-6fdeb30d8e97
-h
+java:S1068	"0Remove this unused "ganadorfinal" private field.(ÆÚÚm8ªÉïÓğ1J$b5e336b9-ab43-4f7b-801b-d9da0064427e
+o
 java:S1068
-",Remove this unused "eleccion" private field.(ûœ…ØJ$d535adff-5fd1-498b-96e8-46aaea23934a
-k
-java:S1068"*Remove this unused "ataque" private field.(Ã¼Î“şÿÿÿÿJ$b822100e-e78e-4770-94a6-24624218370f
-n
-java:S1068"2Remove this unused "estatuspartida" private field.(ÎãëJ$b6611712-b7bb-48fc-96a5-25ebdb9516ef
-k
-java:S1068"*Remove this unused "piedra" private field.(ÑøÚÈşÿÿÿÿJ$2c0aba1b-f82f-4b76-806b-1e3f2af2e536
-e
-java:S1068")Remove this unused "papel" private field.(Á³×€J$b407fb16-b4f4-474a-8b49-b6cc357b7f74
-f
-java:S1068"*Remove this unused "tijera" private field.(ãè¶•J$798b8c9b-d6f6-489e-a9b9-5c64fcfe8ee3
+",Remove this unused "eleccion" private field.(ûœ…Ø8ªÉïÓğ1J$20449d87-c1e9-492e-b134-d406c1f73eef
+r
+java:S1068"*Remove this unused "ataque" private field.(Ã¼Î“şÿÿÿÿ8ªÉïÓğ1J$de0cb901-5459-47fc-a4cf-070bb839237d
+u
+java:S1068"2Remove this unused "estatuspartida" private field.(Îãë8ªÉïÓğ1J$c3da5de0-f251-4845-bdf7-70009ca8558d
+r
+java:S1068"*Remove this unused "piedra" private field.(ÑøÚÈşÿÿÿÿ8ªÉïÓğ1J$9b5ffade-68bb-4ba9-acc1-e4d2bcb59ce2
+l
+java:S1068")Remove this unused "papel" private field.(Á³×€8ªÉïÓğ1J$d8d6145b-c4cf-493e-b3f7-580863b091f1
+m
+java:S1068"*Remove this unused "tijera" private field.(ãè¶•8ªÉïÓğ1J$5fdbcc88-2a24-4fa7-ab65-60e99f15621a

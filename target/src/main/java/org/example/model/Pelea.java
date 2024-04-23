@@ -27,7 +27,7 @@ public class Pelea {
         }
         int danodeAtaque = DanoEfectuado.obtenerDanodeAtaque();
         //Ahora tenemos que tomar una eleccion con respecto a que ataque queremos realizar
-        Pantalla.pelea();
+        Pantalla.pelea(estatuspartida, eleccion, danodeAtaque);
     }
     public static int obtenerdano2(){
         return obtenerdano2();
