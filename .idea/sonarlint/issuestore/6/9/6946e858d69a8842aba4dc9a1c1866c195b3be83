@@ -1,0 +1,38 @@
+
+Ô
+java:S1598"This file "Pelea.java" should be located in "org\example\model" directory, not in "C:\Users\Facun\Desktop\PPT\target\src\main\java\org\example".(Ó‚Æá8Ó¼äÅğ1J$939c7a7a-d682-4ed4-8db5-a6966e315c7e
+—
+java:S1450"TRemove the "papel" field and declare it as a local variable in the relevant methods.(Á³×€8è¼äÅğ1J$c89a1264-043b-4d8b-8503-ea4085171bd1
+
+java:S1450"URemove the "piedra" field and declare it as a local variable in the relevant methods.(ÑøÚÈşÿÿÿÿ8é¼äÅğ1J$c54ccd55-0a6d-41bc-880f-0b2a1745cdd8
+˜
+java:S1450"URemove the "tijera" field and declare it as a local variable in the relevant methods.(ãè¶•8ë¼äÅğ1J$fb1ae74c-e1b9-4a44-9799-a6060082c6ba
+Š
+java:S1854"BRemove this useless assignment to local variable "estatuspartida".(Àç“¹ıÿÿÿÿ8ô¼äÅğ1J$078c0d05-0276-4bd5-9039-956001e2de0f
+ƒ
+java:S1854"@Remove this useless assignment to local variable "danodeAtaque".(­Ø²8õ¼äÅğ1J$d6cf4512-4c68-4177-a054-fcf8cde2d393
+t
+java:S1481"1Remove this unused "danodeAtaque" local variable.(­Ø²8ú¼äÅğ1J$d4eda8b0-daf1-4b95-bc1e-b57dc485aa76
+r	java:S106&"+Replace this use of System.out by a logger.(áÇüÿÿÿÿ8‡½äÅğ1J$9d6bf242-23ef-4be5-84a5-46d9798645ae
+m	java:S106("+Replace this use of System.out by a logger.(ğË»©8½äÅğ1J$db441498-af67-4531-8928-0b9da22cfb58
+m
+java:S1068"+Remove this unused "idpelea" private field.(Í„E8’½äÅğ1J$a2601a25-a6cf-4ebb-88cb-f5a846188389
+y
+java:S1068"1Remove this unused "ganadorronda1" private field.(Ã„Ä¿şÿÿÿÿ8“½äÅğ1J$8be242a1-6616-449b-a859-cf122aa31883
+y
+java:S1068"1Remove this unused "ganadorronda2" private field.(É“ˆ€ÿÿÿÿÿ8“½äÅğ1J$e8ae8c7b-d62b-4efe-b05b-bd40343931a8
+r
+java:S1068	"0Remove this unused "ganadorfinal" private field.(ÆÚÚm8”½äÅğ1J$8589b884-4dbc-46ef-9e3d-0161ffebdcb6
+o
+java:S1068
+",Remove this unused "eleccion" private field.(ûœ…Ø8”½äÅğ1J$42ad1a28-4028-4bfc-a5c0-00dd8644ee60
+r
+java:S1068"*Remove this unused "ataque" private field.(Ã¼Î“şÿÿÿÿ8”½äÅğ1J$1b9d04f7-4fe3-4f14-981e-0d09cf201166
+u
+java:S1068"2Remove this unused "estatuspartida" private field.(Îãë8”½äÅğ1J$ba720a1f-4457-4de7-ae00-034c4a257739
+r
+java:S1068"*Remove this unused "piedra" private field.(ÑøÚÈşÿÿÿÿ8•½äÅğ1J$51f5db57-7044-48f7-ab29-7fa49c699421
+l
+java:S1068")Remove this unused "papel" private field.(Á³×€8•½äÅğ1J$dfa048b6-694c-4379-b5fc-b71b82d9bbd5
+m
+java:S1068"*Remove this unused "tijera" private field.(ãè¶•8–½äÅğ1J$f4cddd3d-9ad8-46e9-aed4-dce17eb2c85e

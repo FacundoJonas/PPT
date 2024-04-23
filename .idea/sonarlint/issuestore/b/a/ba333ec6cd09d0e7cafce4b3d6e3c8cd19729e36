@@ -1,0 +1,21 @@
+
+{
+java:S1854"8Remove this useless assignment to local variable "menu".(”œ¨ê8ĞºäÅğ1J$59d2523b-6fbb-41c0-bc47-a9457d4d5d94
+l
+java:S1481")Remove this unused "menu" local variable.(”œ¨ê8ßºäÅğ1J$6c6e05be-8bf7-4601-a01e-b4852c73c0d1
+š
+java:S1450"WRemove the "eleccion" field and declare it as a local variable in the relevant methods.(ûœ…Ø8âºäÅğ1J$9983961d-08e5-412d-9d8a-fd9c7389d5ba
+ 
+java:S1450"]Remove the "estatuspartida" field and declare it as a local variable in the relevant methods.(Îãë8ãºäÅğ1J$0b8da050-4930-4118-84d4-fdeebc55285b
+|
+java:S3400$"9Remove this method and declare a constant for this value.(”·³›8ìºäÅğ1J$ec3c1311-7b3b-4786-a53a-98f4b31a017f
+|
+java:S3400("9Remove this method and declare a constant for this value.(”·³›8íºäÅğ1J$5cb62361-acf0-47a1-8deb-b06f698d5438
+|
+java:S3400,"9Remove this method and declare a constant for this value.(”·³›8îºäÅğ1J$c9621541-d7dd-48c5-b6f8-1fa33eb1ecda
+{
+java:S34000"9Remove this method and declare a constant for this value.(¸®Ã'8ïºäÅğ1J$05bdb0bb-d259-412c-acd6-1cd42a998877
+o
+java:S1068",Remove this unused "eleccion" private field.(ûœ…Ø8öºäÅğ1J$a88c46fd-96c1-4eb9-b054-b3c8a037aabd
+u
+java:S1068"2Remove this unused "estatuspartida" private field.(Îãë8÷ºäÅğ1J$a31e8964-7957-4748-81cd-4aac31283afd

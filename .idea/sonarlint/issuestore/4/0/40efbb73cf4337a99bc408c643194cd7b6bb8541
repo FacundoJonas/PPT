@@ -1,0 +1,31 @@
+
+š
+java:S1450	"WRemove the "eleccion" field and declare it as a local variable in the relevant methods.(ûœ…Ø8­·äÅğ1J$e90c096d-74b3-4220-977a-42254c0b3e14
+ 
+java:S1450"]Remove the "estatusPartida" field and declare it as a local variable in the relevant methods.(¬´¶¸8®·äÅğ1J$a9dc6f2b-b41c-4203-b145-e07c0e63541b
+œ
+java:S1450
+"TRemove the "papel" field and declare it as a local variable in the relevant methods.(ÄÖ»Àıÿÿÿÿ8°·äÅğ1J$eb18af0c-77dd-4247-9bf7-3d4968c21bf7
+˜
+java:S1450"URemove the "piedra" field and declare it as a local variable in the relevant methods.(Ä¨ç8±·äÅğ1J$a9cdf8e1-f778-4242-b1b5-fe4656172fee
+˜
+java:S1450"URemove the "tijera" field and declare it as a local variable in the relevant methods.(ïêŸü8±·äÅğ1J$aae1f930-9b36-49d9-8340-27eacea7e9bf
+
+java:S1450"ZRemove the "vidaJugador" field and declare it as a local variable in the relevant methods.(ÀóõÅ8²·äÅğ1J$5178629a-afd7-4591-a4c2-6b07518ba9fd
+^
+java:S3626'"Remove this redundant jump.(ûÁİ…8Ã·äÅğ1J$d170c8df-a339-42b5-a06e-9108884662a5
+p
+java:S1068"-Remove this unused "idJugador" private field.(Ò•Û8Ê·äÅğ1J$ad289483-d281-4765-88bb-b470c848bada
+r
+java:S1068"/Remove this unused "vidaJugador" private field.(ÀóõÅ8Ë·äÅğ1J$63e3226e-a415-4b64-84de-69d912d4f738
+o
+java:S1068	",Remove this unused "eleccion" private field.(ûœ…Ø8Ì·äÅğ1J$9b459b99-0a88-40a6-8b8c-8acc7f1afb94
+q
+java:S1068
+")Remove this unused "papel" private field.(ÄÖ»Àıÿÿÿÿ8Ì·äÅğ1J$45cebb3d-771e-472d-985a-22d6b46f081c
+m
+java:S1068"*Remove this unused "piedra" private field.(Ä¨ç8Í·äÅğ1J$80a00b30-f6bf-4f7b-ab2b-eafb816a4148
+m
+java:S1068"*Remove this unused "tijera" private field.(ïêŸü8Î·äÅğ1J$21fcd736-8ed2-4103-b08a-6681380270f6
+u
+java:S1068"2Remove this unused "estatusPartida" private field.(¬´¶¸8Î·äÅğ1J$a94d376d-577d-4a1b-9bc1-b7122ff67ee8
