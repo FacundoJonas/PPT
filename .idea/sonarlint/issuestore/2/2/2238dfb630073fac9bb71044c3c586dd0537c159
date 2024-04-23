@@ -1,0 +1,29 @@
+
+Ğ
+java:S1598"“This file "Pantalla.java" should be located in "org\example\model" directory, not in "C:\Users\Facun\Desktop\PPT\target\src\main\java\org\example".(Ó‚ÆáJ$f0ec99bd-24d7-4454-acf5-2ffe17550105
+
+java:S12260"EIntroduce a new variable instead of reusing the parameter "eleccion".(ŒŠ—ÍJ$af5ace4f-a6c0-4dd5-824a-52662657c97a
+v
+java:S1118":Add a private constructor to hide the implicit public one.(½ €ëJ$4ff23b03-fa33-46a5-aaee-44683d38444d
+
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ò±ÿ‹J$e102ca1a-42da-47e8-94ee-ba0cb8815404
+f	java:S106"+Replace this use of System.out by a logger.(Ó¤ÈJ$f6ce3144-c4b4-41d1-a96b-95eb992d35a6
+f	java:S106"+Replace this use of System.out by a logger.(º´îØJ$7b0723f0-d591-4c80-ad1f-cb0f115f5113
+k	java:S106"+Replace this use of System.out by a logger.(ß™¥ıùÿÿÿÿJ$94aa55b9-6901-4e9f-84bf-2936e99f9757
+k	java:S106"+Replace this use of System.out by a logger.(¹¸›èÿÿÿÿÿJ$a6db4638-821e-43c5-9e3f-6d9c929fd8eb
+f	java:S106"+Replace this use of System.out by a logger.(ÏÀ‚J$af03a757-f56e-471e-91ea-b3d5df539f87
+f	java:S106"+Replace this use of System.out by a logger.(ô¢áJ$685f07d5-402f-4d70-adb0-a192c2383e99
+k	java:S106"+Replace this use of System.out by a logger.(Øå˜úÿÿÿÿJ$80d6076f-aac1-4584-9d84-7fa5f9fb26d4
+f	java:S106 "+Replace this use of System.out by a logger.(óíÿâJ$d8062c2c-64ea-4c81-a3df-124f6bb54e98
+k	java:S106!"+Replace this use of System.out by a logger.(İğùàşÿÿÿÿJ$d79cea86-73e5-4c9c-aada-f1a28af87373
+e	java:S106""+Replace this use of System.out by a logger.(ÍµƒWJ$e6387816-a583-470a-a3c1-64907cd39e84
+e	java:S106#"+Replace this use of System.out by a logger.(ŒáæoJ$c5828dc8-585c-4022-8f12-4a3098e60890
+U
+java:S2178'"Correct this "&" to "&&".( ³ÑßJ$83e00fb8-7359-44e6-b85c-957ec977f249
+e	java:S106("+Replace this use of System.out by a logger.(Ää€OJ$15601ca1-5ee4-48c9-bd9a-616bed7cb4fd
+f	java:S106+"+Replace this use of System.out by a logger.(ô¢áJ$4c905b07-335b-4851-9a0b-42c405c87cee
+|
+java:S18546";Remove this useless assignment to local variable "scanner".(ù ƒ‘üÿÿÿÿJ$a9352d1c-e176-41e3-a769-6d0dede3308d
+m
+java:S14816",Remove this unused "scanner" local variable.(ù ƒ‘üÿÿÿÿJ$f5601fb2-4776-4fc0-86f3-1ebbff3d798b
+k	java:S1067"+Replace this use of System.out by a logger.(ˆ‹áŸúÿÿÿÿJ$68f96f37-8f47-4dc1-b74b-346148185fc9
