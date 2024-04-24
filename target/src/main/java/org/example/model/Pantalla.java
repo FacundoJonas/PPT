@@ -5,11 +5,15 @@ import org.example.Game;
 import java.util.Scanner;
 
 public class Pantalla {
-    public static void menu(int estatuspartida, int eleccion) {
+    public static void menu() {
         Scanner scanner = new Scanner(System.in);
         int opcion;
         int opciones = 0;
         int opcionjugadores;
+        Game game = Game.getInstance();
+        int estatuspartida = game.getEstatuspartida(); // Obtener el valor de estatuspartida Por SINGLETON
+        int eleccion = game.getEleccion(); //Obtener el valor de eleccion que se utiliza para saber si es piedra
+        // papel o tijera
         do {
             System.out.println("Bienvenido al juego de Piedra Papel y Tijera");
             System.out.println("Por favor, elija una opción (1 o 2):");
@@ -46,15 +50,17 @@ public class Pantalla {
                 }
             } while (opcion != 1 && opcion != 2);
             estatuspartida += 1;
+            game.setEstatuspartida(estatuspartida);
             eleccion = opciones;
-            Game game = new Game();
-            game.iniciarjuego(estatuspartida, eleccion);
         }
     }
 
-    public static void pelea(int estatuspartida, int eleccion, int danodeAtaque,int danoAtaquepc, int vidaPc, int vidaJugador) {
+    public static void pelea(int danodeAtaque, int danoAtaquepc, int vidaPc, int vidaJugador) {
         Scanner scanner = new Scanner(System.in);
         int ataque;
+        Game game = Game.getInstance();
+        int estatuspartida = game.getEstatuspartida(); // Obtener el valor de estatuspartida Por SINGLETON
+        int eleccion = game.getEleccion(); //Obtener el valor de eleccion que se utiliza para saber si es piedra
         System.out.println("Seleccione el ataque que desea realizar:");
         //Tengo que hacer de alguna manera que se muestre en base a la eleccion de la persona
         // el ataque que corresponde a cada una de las clases.
@@ -102,19 +108,15 @@ public class Pantalla {
                     }
                 } while (ataque != 1 && ataque != 2);
                 if (ataque == 1) {
+                    System.out.println("Tu vida es de" + vidaJugador);
                     System.out.println("Se ataco correctamente con asficciaconpapel  y se reaizo dano por :" + danodeAtaque);
                     System.out.println("La vida de el contrincante es de :" + vidaPc);
                 } else if (ataque == 2) {
+                    System.out.println("Tu vida es de" + vidaJugador);
                     System.out.println("Se ataco correctamente con navajadepapel  y se reaizo dano por :" + danodeAtaque);
                     System.out.println("La vida de el contrincante es de :" + vidaPc);
                 }
-                System.out.println("El ataque de la Pc fue de :"+danoAtaquepc);
-                System.out.println("Tu vida es de :" + vidaJugador);
-            }
-            if (vidaJugador > 0){
-                System.out.println("Usted Murio por la PC");
-            } else if (vidaPc > 0) {
-                System.out.println("Usted le gano a a PC");
+                System.out.println("usted Murio");//aca se tiene que definir quien gano y quien perdio.
             }
         } else if (eleccion == 3) {
             do {

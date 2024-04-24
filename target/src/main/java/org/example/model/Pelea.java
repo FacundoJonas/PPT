@@ -1,5 +1,6 @@
 package org.example.model;
 
+import org.example.Game;
 import org.example.Jugador;
 
 import java.util.Scanner;
@@ -15,7 +16,10 @@ public class Pelea {
     private static Boolean piedra = false;
     private static Boolean papel = false;
     private static Boolean tijera = false;
-    public static void  obtenerdano1(int estatuspartida, int eleccion){
+    public static void  obtenerdano1(){
+        Game game = Game.getInstance();
+        int estatuspartida = game.getEstatuspartida(); // Obtener el valor de estatuspartida Por SINGLETON
+        int eleccion = game.getEleccion(); //Obtener el valor de eleccion que se utiliza para saber si es piedra
         // se recibe el estatus de partida que el mismo deberia ser 1 y se coloca en 2
         // haciendo referencia que se encuentra en la primera ronda de la pelea
         // estatus 3 (segunda ronda ) y 4 (ronda final ) , estatus 5 es definicion de partida
@@ -42,7 +46,7 @@ public class Pelea {
                 //PC Ataca Jugador
                 int danoAtaquepc = DanoEfectuado.obtenerdanodeataque2();
                 vidaJugador -= danoAtaquepc;
-                Pantalla.pelea(estatuspartida, eleccion, danodeAtaque, danoAtaquepc, vidaPc, vidaJugador);
+                Pantalla.pelea(danodeAtaque, danoAtaquepc, vidaPc, vidaJugador);
 
             }
             //Ahora tenemos que tomar una eleccion con respecto a que ataque queremos realizar

@@ -9,7 +9,7 @@ public class Jugador {
     private boolean papel;
     private boolean piedra;
     private boolean tijera;
-    private int estatusPartida;
+    private int estatuspartida;
 
     public Jugador(int vidaInicial) {
         this.vidaJugador = vidaInicial;
@@ -40,15 +40,16 @@ public class Jugador {
         return idJugador;
     }
 
-    public void jugar(int estatusPartida, int eleccion) {
-        // Asignar el estado de la partida al jugador
-        this.eleccion = eleccion;
-        this.estatusPartida = estatusPartida;
+    public void jugar() {
+        Game game = Game.getInstance();
+        int estatuspartida = game.getEstatuspartida(); // Obtener el valor de estatuspartida Por SINGLETON
+        int eleccion = game.getEleccion(); //Obtener el valor de eleccion que se utiliza para saber si es piedra
 
         // Le asigna la vida al jugador para empezar el juego
-        if (estatusPartida == 1) {
+        if (estatuspartida == 1) {
             // Restablecer la vida del jugador a 100
             vidaJugador = 100;
+            System.out.println("check/Jugador");
 
             // Establece que tipo eligio el jugador
             if (eleccion == 1) {
@@ -59,7 +60,6 @@ public class Jugador {
                 tijera = true;
             }
         }
-        return;
     }
 
     public void obtener() {
