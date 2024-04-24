@@ -117,3 +117,5 @@ Q.idea/sonarlint/securityhotspotstore/f/e/fe320ea3b43ed5bae5fad6646200a35d4acefa
 Q.idea/sonarlint/securityhotspotstore/f/c/fc51aad2f1ebe72ffedf49fa3dfea24b513ff6fe,9\2\92f6b8ed4f7b37c3c344c4307f2fbb1f9b83c15c
 Å
 Q.idea/sonarlint/securityhotspotstore/4/9/49f85f2528db15dfa47b1e7896e25feb60a92042,5\f\5fe36b3ed9dd7face867d2f27d312d009e509161
+Z
+*target/src/main/java/org/example/Game.java,b\a\ba333ec6cd09d0e7cafce4b3d6e3c8cd19729e36

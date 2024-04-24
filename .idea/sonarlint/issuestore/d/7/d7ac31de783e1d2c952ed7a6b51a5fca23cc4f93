@@ -1,44 +1,43 @@
 
 —
-java:S1450"TRemove the "papel" field and declare it as a local variable in the relevant methods.(Á³×€8â´¯Úğ1J$c49289a2-cb56-4619-b5ac-64a0a43956d8
+java:S1450"TRemove the "papel" field and declare it as a local variable in the relevant methods.(Á³×€8â´¯Úğ1J$67da544c-6b78-4dd3-86e3-21a7c5cc7127
 
-java:S1450"URemove the "piedra" field and declare it as a local variable in the relevant methods.(ÑøÚÈşÿÿÿÿ8â´¯Úğ1J$dc65996b-6129-4ee7-a3c0-14c273d6c834
+java:S1450"URemove the "piedra" field and declare it as a local variable in the relevant methods.(ÑøÚÈşÿÿÿÿ8â´¯Úğ1J$fee9ae41-f802-4e18-9059-db8b0c2d9e47
 ˜
-java:S1450"URemove the "tijera" field and declare it as a local variable in the relevant methods.(ãè¶•8â´¯Úğ1J$4c64babe-e200-42fd-9103-7067125f0760
+java:S1450"URemove the "tijera" field and declare it as a local variable in the relevant methods.(ãè¶•8â´¯Úğ1J$6e32dad9-e925-4547-a23a-e9374afa8799
 …
-java:S1854$"=Remove this useless assignment to local variable "idJugador".(Åœ–Üüÿÿÿÿ8â´¯Úğ1J$b06dffb1-1fa9-4c13-8404-94d915a59424
+java:S1854$"=Remove this useless assignment to local variable "idJugador".(Åœ–Üüÿÿÿÿ8â´¯Úğ1J$f42813f8-e425-48fe-9224-81df98b630e7
 Š
-java:S18543"BRemove this useless assignment to local variable "estatuspartida".(Ú›ŠŠûÿÿÿÿ8…†¼Úğ1J$d62efe79-7f66-4f7c-890e-8bfc1305f443
+java:S18545"BRemove this useless assignment to local variable "estatuspartida".(Ú›ŠŠûÿÿÿÿ8…†¼Úğ1J$b892887b-17b8-40fb-bc69-55a583ab38c1
 x
-java:S2209#"5Change this instance-reference to a static reference.(î‚˜8â´¯Úğ1J$80a251d3-6311-4673-9c81-7c6566899bac
+java:S2209#"5Change this instance-reference to a static reference.(î‚˜8â´¯Úğ1J$bfdbe89f-2abb-4146-8535-20d2da12d7c9
 v
-java:S1481$".Remove this unused "idJugador" local variable.(Åœ–Üüÿÿÿÿ8ñ´¯Úğ1J$22c85511-eeb9-4b03-8007-22dcea61c81e
+java:S1481$".Remove this unused "idJugador" local variable.(Åœ–Üüÿÿÿÿ8ñ´¯Úğ1J$e2ad2b98-a81f-41fc-bf23-2b480aca11fd
 x
-java:S2209%"5Change this instance-reference to a static reference.(Û¶‰Ë8ñ´¯Úğ1J$afdf4b46-9091-4bd3-a880-677b034624c8
-~	java:S125+"<This block of commented-out lines of code should be removed.(—üô8“ä¼Úğ1J$08cb75dd-3d61-4b31-8aab-7dffbf834ae6
+java:S2209%"5Change this instance-reference to a static reference.(Û¶‰Ë8ñ´¯Úğ1J$96f21947-317e-4d82-887f-7763f3409dc7
 _
-java:S27573"Was "+=" meant instead?(Ú›ŠŠûÿÿÿÿ8…†¼Úğ1J$34f83e7d-f2f6-4512-bddf-c961a178ce9f
-k	java:S1084")Either remove or fill this block of code.(šëĞÇ8…†¼Úğ1J$24c8a063-500e-4404-abfc-23a7c353942e
-r	java:S106?"+Replace this use of System.out by a logger.(áÇüÿÿÿÿ8”†¼Úğ1J$2a2ffb39-0957-4f24-8596-20fb123838e5
-m	java:S106A"+Replace this use of System.out by a logger.(ğË»©8”†¼Úğ1J$26c267a6-10b0-48cb-a6ea-db152dc5e64c
+java:S27575"Was "+=" meant instead?(Ú›ŠŠûÿÿÿÿ8…†¼Úğ1J$d1df0b0d-5e34-44b4-b525-73a5fffc299a
+k	java:S1086")Either remove or fill this block of code.(šëĞÇ8…†¼Úğ1J$d262aa3c-75f2-4951-bd09-45e98c1c02d1
+r	java:S106A"+Replace this use of System.out by a logger.(áÇüÿÿÿÿ8”†¼Úğ1J$2cc9553b-4f85-4663-907f-bc3da4f9a88d
+m	java:S106C"+Replace this use of System.out by a logger.(ğË»©8ĞØ ëğ1J$6f3711ac-350d-4e78-9a4e-f8e7a432bd39
 m
-java:S1068"+Remove this unused "idpelea" private field.(Í„E8ñ´¯Úğ1J$15f6ff8b-cfcc-4d1c-ba5b-ffa3b1304bfb
+java:S1068"+Remove this unused "idpelea" private field.(Í„E8ñ´¯Úğ1J$b7216fae-f446-4d3d-bdf7-1f41ccb306a2
 y
-java:S1068	"1Remove this unused "ganadorronda1" private field.(Ã„Ä¿şÿÿÿÿ8ñ´¯Úğ1J$2bd58a99-9030-4f87-b865-2e0b9098bbcc
+java:S1068	"1Remove this unused "ganadorronda1" private field.(Ã„Ä¿şÿÿÿÿ8ñ´¯Úğ1J$3f22a210-b0f8-4aaa-8f1a-b2c370ed010a
 y
 java:S1068
-"1Remove this unused "ganadorronda2" private field.(É“ˆ€ÿÿÿÿÿ8ñ´¯Úğ1J$488c9b80-f5aa-49c8-84d8-09684f93b6a5
+"1Remove this unused "ganadorronda2" private field.(É“ˆ€ÿÿÿÿÿ8ñ´¯Úğ1J$3333268c-2911-4de6-b82b-bcaa074ce720
 r
-java:S1068"0Remove this unused "ganadorfinal" private field.(ÆÚÚm8ñ´¯Úğ1J$04cad634-7d2d-4bf0-acd5-6b4dbdb9c2ca
+java:S1068"0Remove this unused "ganadorfinal" private field.(ÆÚÚm8ñ´¯Úğ1J$f0c85204-876f-438a-87ad-bfaa85aeb470
 o
-java:S1068",Remove this unused "eleccion" private field.(ûœ…Ø8ñ´¯Úğ1J$de7a6390-f50e-4b28-a0d5-4e5aa0444a15
+java:S1068",Remove this unused "eleccion" private field.(ûœ…Ø8ñ´¯Úğ1J$1f116935-bbac-4f0f-a1c6-636cc903ecc8
 s
-java:S1068"0Remove this unused "vidaRestante" private field.(±³¸8ñ´¯Úğ1J$94d4194b-408e-4571-b666-fef08cacbaa4
+java:S1068"0Remove this unused "vidaRestante" private field.(±³¸8ñ´¯Úğ1J$1e35d99c-a306-4901-9dc4-d87b7e077de5
 u
-java:S1068"2Remove this unused "estatuspartida" private field.(Îãë8ñ´¯Úğ1J$c7f4ae8c-3d98-40aa-87d2-079c50786dad
+java:S1068"2Remove this unused "estatuspartida" private field.(Îãë8ñ´¯Úğ1J$4b7529bd-30e4-4f75-8241-f07f0a79a9ea
 r
-java:S1068"*Remove this unused "piedra" private field.(ÑøÚÈşÿÿÿÿ8ñ´¯Úğ1J$a445ff3d-20e4-4664-b11e-b732b98d1715
+java:S1068"*Remove this unused "piedra" private field.(ÑøÚÈşÿÿÿÿ8ñ´¯Úğ1J$b583dd71-eb5c-4c90-8635-51a000f517d2
 l
-java:S1068")Remove this unused "papel" private field.(Á³×€8ñ´¯Úğ1J$7fdd6629-dbdb-4107-af8a-65adf304b3df
+java:S1068")Remove this unused "papel" private field.(Á³×€8ñ´¯Úğ1J$e79363e1-17a1-480a-ac10-604b65c67e30
 m
-java:S1068"*Remove this unused "tijera" private field.(ãè¶•8ñ´¯Úğ1J$dce8b7dd-e40f-422e-8a73-02c5cc60a0f7
+java:S1068"*Remove this unused "tijera" private field.(ãè¶•8ñ´¯Úğ1J$7011988f-6d77-4486-b8d0-386545a1ae55

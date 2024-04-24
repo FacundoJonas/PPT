@@ -40,9 +40,9 @@ public class Pelea {
                 int danodeAtaque = DanoEfectuado.obtenerDanodeAtaque();
                 vidaPc -= danodeAtaque;
                 //PC Ataca Jugador
-                //int danoAtaquepc = DanoEfectuado.obtenerdanodeataque2();
-                //vidaJugador -= danodeAtaque;
-                Pantalla.pelea(estatuspartida, eleccion, danodeAtaque, vidaPc, vidaJugador);
+                int danoAtaquepc = DanoEfectuado.obtenerdanodeataque2();
+                vidaJugador -= danoAtaquepc;
+                Pantalla.pelea(estatuspartida, eleccion, danodeAtaque, danoAtaquepc, vidaPc, vidaJugador);
 
             }
             //Ahora tenemos que tomar una eleccion con respecto a que ataque queremos realizar

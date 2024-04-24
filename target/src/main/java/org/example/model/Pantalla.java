@@ -52,7 +52,7 @@ public class Pantalla {
         }
     }
 
-    public static void pelea(int estatuspartida, int eleccion, int danodeAtaque, int vidaPc, int vidaJugador) {
+    public static void pelea(int estatuspartida, int eleccion, int danodeAtaque,int danoAtaquepc, int vidaPc, int vidaJugador) {
         Scanner scanner = new Scanner(System.in);
         int ataque;
         System.out.println("Seleccione el ataque que desea realizar:");
@@ -102,15 +102,19 @@ public class Pantalla {
                     }
                 } while (ataque != 1 && ataque != 2);
                 if (ataque == 1) {
-                    System.out.println("Tu vida es de" + vidaJugador);
                     System.out.println("Se ataco correctamente con asficciaconpapel  y se reaizo dano por :" + danodeAtaque);
                     System.out.println("La vida de el contrincante es de :" + vidaPc);
                 } else if (ataque == 2) {
-                    System.out.println("Tu vida es de" + vidaJugador);
                     System.out.println("Se ataco correctamente con navajadepapel  y se reaizo dano por :" + danodeAtaque);
                     System.out.println("La vida de el contrincante es de :" + vidaPc);
                 }
-                System.out.println("usted Murio");//aca se tiene que definir quien gano y quien perdio.
+                System.out.println("El ataque de la Pc fue de :"+danoAtaquepc);
+                System.out.println("Tu vida es de :" + vidaJugador);
+            }
+            if (vidaJugador > 0){
+                System.out.println("Usted Murio por la PC");
+            } else if (vidaPc > 0) {
+                System.out.println("Usted le gano a a PC");
             }
         } else if (eleccion == 3) {
             do {

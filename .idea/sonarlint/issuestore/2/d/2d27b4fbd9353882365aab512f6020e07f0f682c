@@ -1,76 +1,75 @@
 
 ¼
-java:S1192"yDefine a constant instead of duplicating this literal "Entrada invÃ¡lida. Por favor, ingrese un nÃºmero entero." 5 times.(ô¢á8ÉØğÚğ1J$54dab8c3-9d98-4263-a3b3-7b769a70e4f5
+java:S1192"yDefine a constant instead of duplicating this literal "Entrada invÃ¡lida. Por favor, ingrese un nÃºmero entero." 5 times.(ô¢á8ºê¨íğ1J$332cf265-ac68-4fb6-85dc-17d746876872
 ‘
-java:S1192O"NDefine a constant instead of duplicating this literal "Tu vida es de" 6 times.(÷™Æ—8ÉØğÚğ1J$fc1fe978-6819-4659-8c14-fb0223119392
+java:S1192P"NDefine a constant instead of duplicating this literal "Tu vida es de" 4 times.(÷™Æ—8ºê¨íğ1J$0b27d668-7eac-4e87-9280-a75565a3988c
 ¦
-java:S1192Q"cDefine a constant instead of duplicating this literal "La vida de el contrincante es de :" 6 times.(ç÷ò»8ÉØğÚğ1J$b4676f19-8fed-45fd-bcaf-245641fbf6bb
+java:S1192R"cDefine a constant instead of duplicating this literal "La vida de el contrincante es de :" 6 times.(ç÷ò»8ºê¨íğ1J$d811c2a5-00ff-4d55-8eed-e9c2d8141e71
 ²
-java:S1192)"pDefine a constant instead of duplicating this literal "OpciÃ³n invÃ¡lida. Por favor, ingrese 1 , 2 o 3" 4 times.(Ää€O8ÉØğÚğ1J$0a540702-a7b1-4ba2-9db0-4a90ec804015
+java:S1192)"pDefine a constant instead of duplicating this literal "OpciÃ³n invÃ¡lida. Por favor, ingrese 1 , 2 o 3" 3 times.(Ää€O8ºê¨íğ1J$21663666-8642-4a58-9839-f374e72e8b87
 ˆ
-java:S12261"EIntroduce a new variable instead of reusing the parameter "eleccion".(ŒŠ—Í8ÙØğÚğ1J$4e027c24-d9f5-46e3-81e9-82567627255d
+java:S12261"EIntroduce a new variable instead of reusing the parameter "eleccion".(ŒŠ—Í8àê¨íğ1J$8b4064df-4db5-4257-ac30-0f0f052634e4
 }
-java:S1118":Add a private constructor to hide the implicit public one.(½ €ë8†ŞğÚğ1J$2cc209cb-9423-413f-ac16-f67ff1d5d6b8
+java:S1118":Add a private constructor to hide the implicit public one.(½ €ë8°ì¨íğ1J$af643cde-5c51-49c6-8257-7ed9381080bd
 •
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ò±ÿ‹8†ŞğÚğ1J$c0d82f2a-ce3a-4eca-a4d9-25019a63649f
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ò±ÿ‹8°ì¨íğ1J$29c24946-1b7d-45d8-aea9-7ae7f5820340
 |
-java:S1481"4Remove this unused "opcionjugadores" local variable.(©”‹Ûşÿÿÿÿ8–ŞğÚğ1J$ef341fe5-5dae-4ffd-91f1-9753e041dcfc
-m	java:S106"+Replace this use of System.out by a logger.(Ó¤È8–ŞğÚğ1J$07c957e5-7a63-43a4-bcc7-722eca30b9c6
-m	java:S106"+Replace this use of System.out by a logger.(º´îØ8–ŞğÚğ1J$cd71294e-4350-4f52-a408-a47a4bb758f1
-r	java:S106"+Replace this use of System.out by a logger.(ß™¥ıùÿÿÿÿ8–ŞğÚğ1J$8cb67b9f-809b-4cca-91f7-83056f3dfee4
-r	java:S106"+Replace this use of System.out by a logger.(¹¸›èÿÿÿÿÿ8–ŞğÚğ1J$d4ebab4c-a2aa-4cc6-8ba3-ae539c61ef2a
-m	java:S106"+Replace this use of System.out by a logger.(ÏÀ‚8–ŞğÚğ1J$6518ec93-61d9-4da9-a396-e95d6debdcea
-m	java:S106"+Replace this use of System.out by a logger.(ô¢á8–ŞğÚğ1J$8749343e-be61-452a-929e-f87fc455b342
-r	java:S106 "+Replace this use of System.out by a logger.(Øå˜úÿÿÿÿ8–ŞğÚğ1J$1404ff85-ecc3-4afd-86bc-6f6946c891ff
-m	java:S106!"+Replace this use of System.out by a logger.(óíÿâ8–ŞğÚğ1J$deda5fb7-8e80-4dde-b3c2-b1c1f936b215
-r	java:S106""+Replace this use of System.out by a logger.(İğùàşÿÿÿÿ8–ŞğÚğ1J$52c83eea-859f-48ed-86ec-01e6eba586a0
-l	java:S106#"+Replace this use of System.out by a logger.(ÍµƒW8¦ŞğÚğ1J$560293ce-7d78-4b28-8fac-f4d8180af9c8
-l	java:S106$"+Replace this use of System.out by a logger.(Œáæo8ÆŞğÚğ1J$4f9ab510-1119-4711-bc1f-0cb036ec516e
+java:S1481"4Remove this unused "opcionjugadores" local variable.(©”‹Ûşÿÿÿÿ8ºì¨íğ1J$9954c495-e50e-41af-8ede-4ecaa1169cc7
+m	java:S106"+Replace this use of System.out by a logger.(Ó¤È8ºì¨íğ1J$49bb3c5e-d9aa-4d39-93b0-83412c3d2995
+m	java:S106"+Replace this use of System.out by a logger.(º´îØ8ºì¨íğ1J$e8968379-a000-49c4-86ce-d2959e28b225
+r	java:S106"+Replace this use of System.out by a logger.(ß™¥ıùÿÿÿÿ8ºì¨íğ1J$71bfaf32-560a-4f0a-abfb-bdc94157d56f
+r	java:S106"+Replace this use of System.out by a logger.(¹¸›èÿÿÿÿÿ8ºì¨íğ1J$b05f408e-6ca6-410c-b4b3-ec3e589ac038
+m	java:S106"+Replace this use of System.out by a logger.(ÏÀ‚8ºì¨íğ1J$ac11c09f-1b0d-40c8-a489-b4f287a4d7d1
+m	java:S106"+Replace this use of System.out by a logger.(ô¢á8ºì¨íğ1J$282f8e14-b669-4174-a33e-019dfd61e01c
+r	java:S106 "+Replace this use of System.out by a logger.(Øå˜úÿÿÿÿ8ºì¨íğ1J$d73c829f-7960-469a-babd-d9aa6fa22e79
+m	java:S106!"+Replace this use of System.out by a logger.(óíÿâ8Àì¨íğ1J$c517f80b-af38-4e66-acac-d66c52aeb28d
+r	java:S106""+Replace this use of System.out by a logger.(İğùàşÿÿÿÿ8Àì¨íğ1J$12689c8f-893f-4f2b-b951-162f7a965923
+l	java:S106#"+Replace this use of System.out by a logger.(ÍµƒW8Àì¨íğ1J$2852950a-4dcb-4db2-83da-13e10c0dbfd1
+l	java:S106$"+Replace this use of System.out by a logger.(Œáæo8Àì¨íğ1J$3ee3d6dc-08cf-4e0f-86c5-465e7dd99dc0
 \
-java:S2178("Correct this "&" to "&&".( ³Ñß8ÕŞğÚğ1J$1424237e-45a5-493e-b75d-a1e420c56a78
-l	java:S106)"+Replace this use of System.out by a logger.(Ää€O8åŞğÚğ1J$8cd457a1-f40e-4970-8fb6-66334c7d524d
-m	java:S106,"+Replace this use of System.out by a logger.(ô¢á8åŞğÚğ1J$633620da-de9f-4fef-b0dc-d5b813f43252
-•
-java:S37766"RRefactor this method to reduce its Cognitive Complexity from 44 to the 15 allowed.(¾”ÔŸ8åŞğÚğ1J$18b0a1ff-6b3c-4f82-b236-f1798c799f5f
-x
-java:S11726"5Remove this unused method parameter "estatuspartida".(¾”ÔŸ8õŞğÚğ1J$0cdc76c6-59d0-4842-9228-4a94e4d12dec
-r	java:S1069"+Replace this use of System.out by a logger.(ˆ‹áŸúÿÿÿÿ8…ßğÚğ1J$2d478c2c-70af-42c2-b088-854f65e5efca
-m	java:S106A"+Replace this use of System.out by a logger.(µ”«Ì8•ßğÚğ1J$b33dcefa-1cac-4995-924a-f62e9cf9f1a4
-m	java:S106B"+Replace this use of System.out by a logger.(‡ø´ğ8¥ßğÚğ1J$890e4343-0326-4356-82bc-66cdb500daa0
+java:S2178("Correct this "&" to "&&".( ³Ñß8Àì¨íğ1J$cfbaaff2-26aa-44db-aa45-98d31dfab4ea
+l	java:S106)"+Replace this use of System.out by a logger.(Ää€O8Àì¨íğ1J$923116b4-a247-4811-8bad-ed7b04c6684b
+m	java:S106,"+Replace this use of System.out by a logger.(ô¢á8Àì¨íğ1J$48bd0d76-9c8c-45ca-b895-4f6d8cd71708
+š
+java:S37767"RRefactor this method to reduce its Cognitive Complexity from 52 to the 15 allowed.(çãŸ²şÿÿÿÿ8Äì¨íğ1J$b56957d8-5842-4169-b104-04843e802ff4
+}
+java:S11727"5Remove this unused method parameter "estatuspartida".(çãŸ²şÿÿÿÿ8Äì¨íğ1J$1c2f9a42-6484-47b2-a7bd-f5be39efdaca
+r	java:S106:"+Replace this use of System.out by a logger.(ˆ‹áŸúÿÿÿÿ8Äì¨íğ1J$bc38db8d-44a7-467d-b0da-dcdf64fe4611
+m	java:S106B"+Replace this use of System.out by a logger.(µ”«Ì8Äì¨íğ1J$b2028a44-4e4f-4c8a-82ff-696cf7c90398
+m	java:S106C"+Replace this use of System.out by a logger.(‡ø´ğ8Äì¨íğ1J$300df592-abe9-4e3f-bebe-549369c1aea9
+m	java:S106H"+Replace this use of System.out by a logger.(àŸ×È8Äì¨íğ1J$9aa09717-9d4d-4123-8f60-ac518a8ea000
+m	java:S106K"+Replace this use of System.out by a logger.(ô¢á8Äì¨íğ1J$78784e3b-6136-4d7e-a2b1-157bf687ab2b
+m	java:S106P"+Replace this use of System.out by a logger.(÷™Æ—8Äì¨íğ1J$db417296-c7ff-46cb-9328-2adcc8c4d8ea
+r	java:S106Q"+Replace this use of System.out by a logger.(¢¯“Ôşÿÿÿÿ8Äì¨íğ1J$78bd22e2-cb45-4faa-b486-fca82574d956
+m	java:S106R"+Replace this use of System.out by a logger.(ç÷ò»8Äì¨íğ1J$4b73281d-f466-420c-8542-7b90f2720567
+m	java:S106T"+Replace this use of System.out by a logger.(÷™Æ—8Äì¨íğ1J$247a1c9e-79b1-4b12-ab3b-9d9b796edb1d
+m	java:S106U"+Replace this use of System.out by a logger.(Æäˆá8Äì¨íğ1J$a3ff20b5-d6a2-4b20-b60e-4c0811bcba45
+m	java:S106V"+Replace this use of System.out by a logger.(ç÷ò»8Äì¨íğ1J$a1a4ccaf-8768-45b1-af12-bf25c5b29876
+r	java:S106["+Replace this use of System.out by a logger.(°£Äúÿÿÿÿ8Äì¨íğ1J$b8306196-7c04-425a-ab57-5532162210b0
+r	java:S106\"+Replace this use of System.out by a logger.(ÀüŒ­ùÿÿÿÿ8Äì¨íğ1J$b35d6175-ad0c-4281-834b-38f58c308d1c
 a
-java:S2178F"Correct this "&" to "&&".(ßæùºùÿÿÿÿ8µßğÚğ1J$58ff37ba-77fa-4c01-a970-c53b35405d57
-l	java:S106G"+Replace this use of System.out by a logger.(Ää€O8µßğÚğ1J$dbd3b5cd-f433-4c89-89c5-0118c33c5c8e
-m	java:S106J"+Replace this use of System.out by a logger.(ô¢á8µßğÚğ1J$960a5da2-0f17-46e8-86c8-6afddde99525
-m	java:S106O"+Replace this use of System.out by a logger.(÷™Æ—8µßğÚğ1J$a45d78a1-3300-4eb8-808d-c3e7d08329a2
-r	java:S106P"+Replace this use of System.out by a logger.(¢¯“Ôşÿÿÿÿ8µßğÚğ1J$7d1c2d86-d92f-4fbe-bf55-94de087177ae
-m	java:S106Q"+Replace this use of System.out by a logger.(ç÷ò»8µßğÚğ1J$fe111856-ca05-4ff1-8ada-375e897f014a
-m	java:S106S"+Replace this use of System.out by a logger.(÷™Æ—8µßğÚğ1J$36af6ec7-e4be-4b0c-b9bc-000646bbb81d
-m	java:S106T"+Replace this use of System.out by a logger.(Æäˆá8µßğÚğ1J$a57fe9a7-d941-468d-ae64-d23097e8cf62
-m	java:S106U"+Replace this use of System.out by a logger.(ç÷ò»8µßğÚğ1J$106a98d8-ef6b-433a-a9e0-2f09029855c2
-r	java:S106Y"+Replace this use of System.out by a logger.(°£Äúÿÿÿÿ8µßğÚğ1J$1a1bb30e-ff1e-4ce4-be1b-9b262d07d999
-r	java:S106Z"+Replace this use of System.out by a logger.(ÀüŒ­ùÿÿÿÿ8µßğÚğ1J$08186ba8-3d16-49ac-8405-f070a236b0d0
+java:S2178`"Correct this "&" to "&&".(ßæùºùÿÿÿÿ8Äì¨íğ1J$a5b2ca6a-c5d3-49f1-af49-5983441fffac
+l	java:S106a"+Replace this use of System.out by a logger.(Ää€O8Äì¨íğ1J$63a91f81-73e5-41e4-bdde-60b6307aaf7c
+m	java:S106d"+Replace this use of System.out by a logger.(ô¢á8Äì¨íğ1J$28bb0c93-edec-42f2-88fc-c043a3c4e5a1
+r	java:S106i"+Replace this use of System.out by a logger.(„€æœÿÿÿÿÿ8Íì¨íğ1J$7b928fb2-a90f-4d4f-a513-1dc8c5026103
+m	java:S106j"+Replace this use of System.out by a logger.(ç÷ò»8Íì¨íğ1J$cad8b04e-b17d-4901-872c-7e23a26cdbc6
+m	java:S106l"+Replace this use of System.out by a logger.(‰şå×8Íì¨íğ1J$2cefc528-db71-4f8a-8377-bd6f51a54c86
+m	java:S106m"+Replace this use of System.out by a logger.(ç÷ò»8Íì¨íğ1J$9a3cea36-eb7c-4d15-8cdd-7487b9eca0c3
+m	java:S106o"+Replace this use of System.out by a logger.(şòÉõ8Íì¨íğ1J$c852d87b-9a27-4cc1-8746-540d5e0acda3
+r	java:S106p"+Replace this use of System.out by a logger.(¤Í‰Üıÿÿÿÿ8Íì¨íğ1J$445623e5-df29-4b6f-9e3a-e9da03e21a74
+m	java:S106s"+Replace this use of System.out by a logger.(üÇ¯¾8Íì¨íğ1J$cd20d6b8-8dd5-4257-9624-d51f055fdb5c
+r	java:S106u"+Replace this use of System.out by a logger.(«ÁÕäûÿÿÿÿ8Íì¨íğ1J$92c951d7-72d3-4c12-8501-5c0687f76aa5
+r	java:S106y"+Replace this use of System.out by a logger.(¦“üÈøÿÿÿÿ8Íì¨íğ1J$c604bd84-1fe2-49a8-913a-9f2d13e35bad
+r	java:S106z"+Replace this use of System.out by a logger.(íà±Èùÿÿÿÿ8Ğì¨íğ1J$67e6958d-c808-4e08-b436-32be26d5e9a7
 a
-java:S2178^"Correct this "&" to "&&".(ßæùºùÿÿÿÿ8ÅßğÚğ1J$f53d4361-99c6-45b7-86d2-8efbac3ba228
-l	java:S106_"+Replace this use of System.out by a logger.(Ää€O8ÕßğÚğ1J$ff24d8dc-d592-401a-b2cf-7889e219806b
-m	java:S106b"+Replace this use of System.out by a logger.(ô¢á8äßğÚğ1J$8b0f499d-9179-44e0-978c-f674347d11d2
-m	java:S106g"+Replace this use of System.out by a logger.(÷™Æ—8ûßğÚğ1J$d8754ddf-48a1-4d36-af4c-06d6f7f7d78e
-r	java:S106h"+Replace this use of System.out by a logger.(„€æœÿÿÿÿÿ8ûßğÚğ1J$3dfe8e34-cf16-43dd-a331-c1874aaa2b20
-m	java:S106i"+Replace this use of System.out by a logger.(ç÷ò»8ûßğÚğ1J$365346d3-0b18-48f1-9cfb-b5e64339fd59
-m	java:S106k"+Replace this use of System.out by a logger.(÷™Æ—8ûßğÚğ1J$4c5b70be-c4ba-4416-9e52-ea4991ca80a7
-m	java:S106l"+Replace this use of System.out by a logger.(‰şå×8ûßğÚğ1J$1a5559a4-566d-49ab-bcab-5da7df36f183
-m	java:S106m"+Replace this use of System.out by a logger.(ç÷ò»8ûßğÚğ1J$48c2c6e2-d3b9-4aca-ab6a-a3384b86096a
-m	java:S106p"+Replace this use of System.out by a logger.(Ëşï8ûßğÚğ1J$22769296-436f-4f94-9807-6a6b95ccabe0
-r	java:S106t"+Replace this use of System.out by a logger.(¦“üÈøÿÿÿÿ8ûßğÚğ1J$2dda3f1c-254c-4bf3-a122-595cfc59b686
-r	java:S106u"+Replace this use of System.out by a logger.(íà±Èùÿÿÿÿ8ûßğÚğ1J$685f6124-c309-42f8-af6d-48d52fa92653
-a
-java:S2178y"Correct this "&" to "&&".(ßæùºùÿÿÿÿ8ûßğÚğ1J$c4ac9799-15e8-4332-b7b2-fcc90cddd970
-l	java:S106z"+Replace this use of System.out by a logger.(Ää€O8ûßğÚğ1J$53b91096-efa4-41ce-972e-ae0bd541359c
-m	java:S106}"+Replace this use of System.out by a logger.(ô¢á8ûßğÚğ1J$64079d39-5185-46ff-a3ce-65c064efce35
-n	java:S106‚"+Replace this use of System.out by a logger.(÷™Æ—8ûßğÚğ1J$79052d53-929f-4bba-b00a-4b2267856fa9
-s	java:S106ƒ"+Replace this use of System.out by a logger.(µ‹é¿øÿÿÿÿ8ûßğÚğ1J$495cf34b-0bfb-4816-9915-0150ee4cf654
-n	java:S106„"+Replace this use of System.out by a logger.(ç÷ò»8ûßğÚğ1J$d55d0bad-82e1-428b-8752-6dc3721ac07a
-n	java:S106†"+Replace this use of System.out by a logger.(÷™Æ—8ûßğÚğ1J$f71546b9-23bf-4c05-88fe-d63ab2f1b83e
-s	java:S106‡"+Replace this use of System.out by a logger.(À™Ö½ûÿÿÿÿ8ûßğÚğ1J$91b2db71-3364-4828-9c00-29df9bdf7ac6
-n	java:S106ˆ"+Replace this use of System.out by a logger.(ç÷ò»8ûßğÚğ1J$c4e85324-c6f3-4d48-8388-6642e132df26
-‰
-java:S65416"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 81 to 64, Complexity from 23 to 14, Nesting Level from 4 to 2, Number of Variables from 13 to 6.(¾”ÔŸ8ûßğÚğ1J$6cdd3fda-9e76-4027-ad1d-f2e7f8cc3d42
+java:S2178~"Correct this "&" to "&&".(ßæùºùÿÿÿÿ8Íì¨íğ1J$5f987278-26d8-43ce-80ed-9055f4122d73
+l	java:S106"+Replace this use of System.out by a logger.(Ää€O8Ğì¨íğ1J$4ae01abb-7104-4d50-be8f-155ff73010e2
+n	java:S106‚"+Replace this use of System.out by a logger.(ô¢á8Ñì¨íğ1J$cfa1bc40-4cda-4137-997a-ea39674fb8b2
+n	java:S106‡"+Replace this use of System.out by a logger.(÷™Æ—8Ñì¨íğ1J$a02d7efc-2f37-4794-b3c5-885a227e9799
+s	java:S106ˆ"+Replace this use of System.out by a logger.(µ‹é¿øÿÿÿÿ8Ñì¨íğ1J$e80fa7a4-e51d-4a72-99ed-d9a97396bb97
+n	java:S106‰"+Replace this use of System.out by a logger.(ç÷ò»8Ñì¨íğ1J$1e20bc61-b9e5-4bb2-bea4-40f7c001a9a8
+n	java:S106‹"+Replace this use of System.out by a logger.(÷™Æ—8Ñì¨íğ1J$a4c2cedb-f7f1-4fde-a770-24a38889b3c0
+s	java:S106Œ"+Replace this use of System.out by a logger.(À™Ö½ûÿÿÿÿ8Ñì¨íğ1J$16770e20-7d48-41fc-a82e-3636a7361d52
+n	java:S106"+Replace this use of System.out by a logger.(ç÷ò»8Ã”­íğ1J$7227ec4f-8732-487e-a857-b74a4011f534
+
+java:S65417"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 85 to 64, Complexity from 26 to 14, Nesting Level from 5 to 2, Number of Variables from 14 to 6.(çãŸ²şÿÿÿÿ8Ñì¨íğ1J$d1f37bc3-ce6d-40a7-9791-2dadac8fbb00

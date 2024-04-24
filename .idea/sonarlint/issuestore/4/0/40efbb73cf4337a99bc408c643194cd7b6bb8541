@@ -13,13 +13,13 @@ java:S1450
 ˜
 java:S1450"URemove the "tijera" field and declare it as a local variable in the relevant methods.(ïêŸü8¶ÉÃÙğ1J$9f791129-3122-439b-9734-6a5f5145c6cf
 p
-java:S3010#"(Remove this assignment of "vidaJugador".(êéŒÆûÿÿÿÿ8¶ÉÃÙğ1J$82c17ca1-17c1-4d86-90de-f6152472a090
+java:S3010"(Remove this assignment of "vidaJugador".(êéŒÆûÿÿÿÿ8¶ÉÃÙğ1J$82c17ca1-17c1-4d86-90de-f6152472a090
 }
-java:S2209#"5Change this instance-reference to a static reference.(êéŒÆûÿÿÿÿ8¶ÉÃÙğ1J$c0ceb03d-6670-4bd9-a51b-d2e97bf95b77
+java:S2209"5Change this instance-reference to a static reference.(êéŒÆûÿÿÿÿ8¶ÉÃÙğ1J$c0ceb03d-6670-4bd9-a51b-d2e97bf95b77
 ^
-java:S3626?"Remove this redundant jump.(ûÁİ…8¶ÉÃÙğ1J$d60ec35c-274a-4f8c-9d62-963aece7dd12
+java:S3626>"Remove this redundant jump.(ûÁİ…8¶ÉÃÙğ1J$d60ec35c-274a-4f8c-9d62-963aece7dd12
 ~
-java:S26964"6Make the enclosing method "static" or remove this set.(ï©Ûœúÿÿÿÿ8¶ÉÃÙğ1J$f3dd3682-88e2-42c5-9746-49c20ea83172
+java:S26963"6Make the enclosing method "static" or remove this set.(ï©Ûœúÿÿÿÿ8¶ÉÃÙğ1J$f3dd3682-88e2-42c5-9746-49c20ea83172
 o
 java:S1068",Remove this unused "eleccion" private field.(ûœ…Ø8ÆÉÃÙğ1J$a1ac9516-6237-4349-9dc3-ddf244536833
 q
