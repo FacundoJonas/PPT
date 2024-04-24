@@ -42,6 +42,14 @@ public class Game {
                 //el jugador eligio Tijera
                 Jugador.setTijera(true);
             }
+            //Ataque de el jugador
+            Pelea.obtenerdano1();
+            Pelea.getDanodeAtaque();
+
+            //Ataque de la PC
+            Pelea.obtenerdano2();
+            Pelea.getDanoAtaquepc();
+
 
 
             // Llamar al metodo de pelea para que empezar la pela.
