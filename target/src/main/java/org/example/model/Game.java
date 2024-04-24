@@ -27,14 +27,21 @@ public class Game {
         int estatuspartida = game.getEstatuspartida(); // Obtener el valor de estatuspartida Por SINGLETON
         int eleccion = game.getEleccion(); //Obtener el valor de eleccion que se utiliza para saber si es piedra
         if (estatuspartida == 1) {
-            int vidaJugador = Jugador.getVidaJugador();
-            int vidaPc = Jugador.getVidaPc();
+            //int vidaJugador = Jugador.getVidaJugador();
+            //int vidaPc = Jugador.getVidaPc();
             //Lo que podemos hacer es hacer SE  T y GET
-            System.out.println("Muestra del estatus de la patida : "+estatuspartida);
             //El estatus de la partida se tiene que pasar a estatus 2 ya que le asignamos juego la vida
             //El estatus de la partida se tiene que pasar a estarus 3 cuando ya este en primera fase de pelea
-
-
+            if (eleccion == 1){
+                //el jugador eligio Piedra
+                Jugador.setPiedra(true);
+            } else if (eleccion == 2) {
+                //el jugador eligio Papel
+                Jugador.setPapel(true);
+            } else if (eleccion == 3) {
+                //el jugador eligio Tijera
+                Jugador.setTijera(true);
+            }
 
 
             // Llamar al metodo de pelea para que empezar la pela.

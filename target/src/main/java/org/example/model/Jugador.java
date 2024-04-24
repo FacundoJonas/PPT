@@ -2,24 +2,37 @@ package org.example.model;
 
 public class Jugador {
     private static int contadorJugadores = 0;
-    private static int vidaJugador = 100;
-    private static int vidaPc = 100;
+    private static int vidaJugador;
+    private static int vidaPc;
     private int idJugador;
-    private int eleccion;
-    private boolean papel;
-    private boolean piedra;
-    private boolean tijera;
-    private int estatuspartida;
+    private static int eleccion;
+    private static boolean papel;// Se genera el Geter y Seter para poder saber el tipo
+    private static boolean piedra;// Se genera el Geter y Seter para poder saber el tipo
+    private static boolean tijera;// Se genera el Geter y Seter para poder saber el tipo
+    private static int estatuspartida;
 
-    public Jugador(int vidaInicial) {
-        this.vidaJugador = vidaInicial;
+    public void jugar() {
+        //Acciones de jugar del jugador
     }
 
-    public Jugador() {
-        // Asignar un ID único al jugador
-        this.idJugador = ++contadorJugadores;
+    public void obtener() {
     }
 
+    public int getEstatuspartida() {
+        return estatuspartida;
+    }
+
+    public void setEstatuspartida(int estatuspartida) {
+        this.estatuspartida = estatuspartida;
+    }
+
+    public int getEleccion() {
+        return eleccion;
+    }
+
+    public void setEleccion(int eleccion) {
+        this.eleccion = eleccion;
+    }
     public static int getVidaPc() {
         return vidaPc;
     }
@@ -40,44 +53,27 @@ public class Jugador {
         return idJugador;
     }
 
-    public void jugar() {
-        Game game = Game.getInstance();
-        int estatuspartida = game.getEstatuspartida(); // Obtener el valor de estatuspartida Por SINGLETON
-        int eleccion = game.getEleccion(); //Obtener el valor de eleccion que se utiliza para saber si es piedra
-
-        // Le asigna la vida al jugador para empezar el juego
-        if (estatuspartida == 1) {
-            // Restablecer la vida del jugador a 100
-            vidaJugador = 100;
-            System.out.println("check/Jugador");
-
-            // Establece que tipo eligio el jugador
-            if (eleccion == 1) {
-                piedra = true;
-            } else if (eleccion == 2) {
-                papel = true;
-            } else if (eleccion == 3) {
-                tijera = true;
-            }
-        }
-    }
-    public void obtener() {
+    public static boolean isPapel() {
+        return papel;
     }
 
-    public int getEstatuspartida() {
-        return estatuspartida;
+    public static void setPapel(boolean papel) {
+        Jugador.papel = papel;
     }
 
-    public void setEstatuspartida(int estatuspartida) {
-        this.estatuspartida = estatuspartida;
+    public static boolean isPiedra() {
+        return piedra;
     }
 
-    public int getEleccion() {
-        return eleccion;
+    public static void setPiedra(boolean piedra) {
+        Jugador.piedra = piedra;
     }
 
-    public void setEleccion(int eleccion) {
-        this.eleccion = eleccion;
+    public static boolean isTijera() {
+        return tijera;
     }
 
+    public static void setTijera(boolean tijera) {
+        Jugador.tijera = tijera;
+    }
 }
