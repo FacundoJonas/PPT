@@ -1,10 +1,6 @@
 
 Ä
 java:S1186A"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­Íñê8¦ÉÃÙğ1J$25884f30-d42d-4ddd-9bd0-bf587141c30f
-š
-java:S1450"WRemove the "eleccion" field and declare it as a local variable in the relevant methods.(ûœ…Ø8¦ÉÃÙğ1J$b8749612-fb06-4226-a327-33caa1524175
- 
-java:S1450"]Remove the "estatusPartida" field and declare it as a local variable in the relevant methods.(¬´¶¸8¦ÉÃÙğ1J$2d6eb680-545c-41e3-be2a-78844f0521c4
 œ
 java:S1450	"TRemove the "papel" field and declare it as a local variable in the relevant methods.(ÄÖ»Àıÿÿÿÿ8¦ÉÃÙğ1J$74b01925-68f8-44c2-8717-32b70561aff5
 ˜
@@ -16,10 +12,13 @@ p
 java:S3010"(Remove this assignment of "vidaJugador".(êéŒÆûÿÿÿÿ8¶ÉÃÙğ1J$82c17ca1-17c1-4d86-90de-f6152472a090
 }
 java:S2209"5Change this instance-reference to a static reference.(êéŒÆûÿÿÿÿ8¶ÉÃÙğ1J$c0ceb03d-6670-4bd9-a51b-d2e97bf95b77
-^
-java:S3626>"Remove this redundant jump.(ûÁİ…8¶ÉÃÙğ1J$d60ec35c-274a-4f8c-9d62-963aece7dd12
+_
+java:S1117-"BRename "estatuspartida" which hides the field declared at line 12.(±Àé×8‘Ÿèƒñ1
+]
+java:S1117.";Rename "eleccion" which hides the field declared at line 8.(ã§î‹şÿÿÿÿ8‘Ÿèƒñ1
 ~
 java:S26963"6Make the enclosing method "static" or remove this set.(ï©Ûœúÿÿÿÿ8¶ÉÃÙğ1J$f3dd3682-88e2-42c5-9746-49c20ea83172
+L	java:S1064"+Replace this use of System.out by a logger.(Á¹Êñøÿÿÿÿ8ƒ èƒñ1
 o
 java:S1068",Remove this unused "eleccion" private field.(ûœ…Ø8ÆÉÃÙğ1J$a1ac9516-6237-4349-9dc3-ddf244536833
 q
@@ -29,5 +28,5 @@ java:S1068
 "*Remove this unused "piedra" private field.(Ä¨ç8ÆÉÃÙğ1J$c8f8ec28-7660-4ea8-9ade-db59354018a7
 m
 java:S1068"*Remove this unused "tijera" private field.(ïêŸü8ÆÉÃÙğ1J$a8be83a2-bd16-48d3-bb81-17e30512cb84
-u
-java:S1068"2Remove this unused "estatusPartida" private field.(¬´¶¸8ÆÉÃÙğ1J$bf2caef3-58df-421c-aa0c-3bc0da4271f6
+O
+java:S1068"2Remove this unused "estatuspartida" private field.(Îãë8ˆ èƒñ1

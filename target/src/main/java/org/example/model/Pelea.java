@@ -4,19 +4,43 @@ import java.util.Scanner;
 
 public class Pelea {
     private int idpelea;
+
     private String ganadorronda1;
+
     private String ganadorronda2;
+
     private String ganadorfinal;
-    private int eleccion;
+
+    //private int eleccion; // Se comenta eleccion ya que lo tiene desde game por singleton
+
     private int vidaRestante;
-    private int estatuspartida;
+
+    //private int estatuspartida; // Se comenta eleccion ya que lo tiene desde game por singleton
+
     private static Boolean piedra = false;
+
     private static Boolean papel = false;
+
     private static Boolean tijera = false;
+
+    private static Pelea instance;
+
+    private Pelea(){
+
+    }
+    public static Pelea getInstance() {
+
+        if (instance == null) {
+            instance = new Pelea();
+        }
+        return instance;
+    }
+
     public static void  obtenerdano1(){
         Game game = Game.getInstance();
         int estatuspartida = game.getEstatuspartida(); // Obtener el valor de estatuspartida Por SINGLETON
         int eleccion = game.getEleccion(); //Obtener el valor de eleccion que se utiliza para saber si es piedra
+        Pelea pelea = Pelea.getInstance();
         // se recibe el estatus de partida que el mismo deberia ser 1 y se coloca en 2
         // haciendo referencia que se encuentra en la primera ronda de la pelea
         // estatus 3 (segunda ronda ) y 4 (ronda final ) , estatus 5 es definicion de partida

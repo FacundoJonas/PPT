@@ -6,6 +6,7 @@ class Main {
     public static void main(String[] args) {
         Menu menu = new Menu();
         Pantalla.menu();
-        Pantalla.pelea();
+        //Pantalla.pelea(); A verificar si es posible realizarlo
+        Game.iniciarjuego();
     }
 }

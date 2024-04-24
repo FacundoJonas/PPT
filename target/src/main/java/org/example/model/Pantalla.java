@@ -50,6 +50,7 @@ public class Pantalla {
             estatuspartida += 1;
             game.setEstatuspartida(estatuspartida);
             eleccion = opciones;
+            game.setEleccion(eleccion);
         }
     }
 
@@ -59,6 +60,13 @@ public class Pantalla {
         Game game = Game.getInstance();
         int estatuspartida = game.getEstatuspartida(); // Obtener el valor de estatuspartida Por SINGLETON
         int eleccion = game.getEleccion(); //Obtener el valor de eleccion que se utiliza para saber si es piedra
+
+        //Temporalmente defino variables para realizar pruebas
+        int vidaJugador = 0;
+        int vidaPc = 0;
+        int danodeAtaque = 0;
+        //Temporalmente defino las variables para probar main
+
         System.out.println("Seleccione el ataque que desea realizar:");
         //Tengo que hacer de alguna manera que se muestre en base a la eleccion de la persona
         // el ataque que corresponde a cada una de las clases.
@@ -81,9 +89,9 @@ public class Pantalla {
                 }
             } while (ataque != 1 && ataque != 2);
             if (ataque == 1) {
-                System.out.println("Tu vida es de" + vidaJugador);
-                System.out.println("Se ataco correctamente con pulverizacionpetrea  y se reaizo dano por :" + danodeAtaque);
-                System.out.println("La vida de el contrincante es de :" + vidaPc);
+                System.out.println("Tu vida es de" );//+ vidaJugador
+                System.out.println("Se ataco correctamente con pulverizacionpetrea  y se reaizo dano por :");// + danodeAtaque
+                System.out.println("La vida de el contrincante es de :" );//+ vidaPc
             } else if (ataque == 2) {
                 System.out.println("Tu vida es de" + vidaJugador);
                 System.out.println("Se ataco correctamente con derrumbedevastador  y se reaizo dano por :" + danodeAtaque);

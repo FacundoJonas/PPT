@@ -61,7 +61,23 @@ public class Jugador {
             }
         }
     }
-
     public void obtener() {
     }
+
+    public int getEstatuspartida() {
+        return estatuspartida;
+    }
+
+    public void setEstatuspartida(int estatuspartida) {
+        this.estatuspartida = estatuspartida;
+    }
+
+    public int getEleccion() {
+        return eleccion;
+    }
+
+    public void setEleccion(int eleccion) {
+        this.eleccion = eleccion;
+    }
+
 }

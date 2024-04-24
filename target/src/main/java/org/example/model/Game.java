@@ -22,18 +22,23 @@ public class Game {
         return instance;
         }
 
-    public void iniciarjuego() {
+    public static void iniciarjuego(){
         Game game = Game.getInstance();
         int estatuspartida = game.getEstatuspartida(); // Obtener el valor de estatuspartida Por SINGLETON
         int eleccion = game.getEleccion(); //Obtener el valor de eleccion que se utiliza para saber si es piedra
         if (estatuspartida == 1) {
-            // Crear una instancia de Jugador
-            Jugador jugador = new Jugador();
+            int vidaJugador = Jugador.getVidaJugador();
+            int vidaPc = Jugador.getVidaPc();
+            //Lo que podemos hacer es hacer SE  T y GET
+            System.out.println("Muestra del estatus de la patida : "+estatuspartida);
+            //El estatus de la partida se tiene que pasar a estatus 2 ya que le asignamos juego la vida
+            //El estatus de la partida se tiene que pasar a estarus 3 cuando ya este en primera fase de pelea
 
-            // Llamar al método jugar de Jugador y pasar el valor de estatuspartida.
-            jugador.jugar();
+
+
+
             // Llamar al metodo de pelea para que empezar la pela.
-            Pelea.obtenerdano1();
+            //Pelea.obtenerdano1();
 
         }
     }
@@ -55,27 +60,26 @@ public class Game {
     }
 
     public int getEleccion() {
+
         return eleccion;
     }
 
     public void setEleccion(int eleccion) {
+
         this.eleccion = eleccion;
     }
 
     public int getEstatuspartida() {
+
         return estatuspartida;
     }
 
     public void setEstatuspartida(int estatuspartida) {
+
         this.estatuspartida = estatuspartida;
     }
 
-    public static void main(String[] args) {
-        // Aquí puedes agregar código para ejecutar la lógica del juego
-        // Por ejemplo:
-        Game game = new Game();
-        game.iniciarjuego(); // Simular inicio del juego con estatus de partida 1 y elección de jugador 1
-    }
+
 }
 
 
