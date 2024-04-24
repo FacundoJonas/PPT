@@ -1,4 +1,4 @@
-package org.example;
+package org.example.model;
 
 public class Jugador {
     private static int contadorJugadores = 0;

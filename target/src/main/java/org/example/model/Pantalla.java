@@ -1,7 +1,5 @@
 package org.example.model;
 
-import org.example.Game;
-
 import java.util.Scanner;
 
 public class Pantalla {
@@ -55,7 +53,7 @@ public class Pantalla {
         }
     }
 
-    public static void pelea(int danodeAtaque, int danoAtaquepc, int vidaPc, int vidaJugador) {
+    public static void pelea() {
         Scanner scanner = new Scanner(System.in);
         int ataque;
         Game game = Game.getInstance();

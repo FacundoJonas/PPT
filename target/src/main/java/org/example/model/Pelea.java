@@ -1,8 +1,5 @@
 package org.example.model;
 
-import org.example.Game;
-import org.example.Jugador;
-
 import java.util.Scanner;
 
 public class Pelea {
@@ -46,7 +43,7 @@ public class Pelea {
                 //PC Ataca Jugador
                 int danoAtaquepc = DanoEfectuado.obtenerdanodeataque2();
                 vidaJugador -= danoAtaquepc;
-                Pantalla.pelea(danodeAtaque, danoAtaquepc, vidaPc, vidaJugador);
+
 
             }
             //Ahora tenemos que tomar una eleccion con respecto a que ataque queremos realizar
@@ -62,13 +59,5 @@ public class Pelea {
     }
     public static int obtenerdano2(){
         return obtenerdano2();
-    }
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("cadena de texto");
-        String cadena = scanner.nextLine();
-        System.out.println("La cadena de Texto ingresada es : " + cadena);
-        scanner.close();
     }
 }

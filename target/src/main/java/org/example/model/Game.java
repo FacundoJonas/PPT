@@ -1,18 +1,5 @@
-package org.example;
+package org.example.model;
 
-import org.example.model.Pantalla;
-import org.example.model.Pelea;
-
-import java.awt.*;
-import java.util.Scanner;
-class Main {
-    private static int estatuspartida;
-    private static int eleccion;
-    public static void main(String[] args) {
-        Menu menu = new Menu();
-        Pantalla.menu();
-    }
-}
 public class Game {
     private int eleccion;
     private int estatuspartida;
