@@ -2,8 +2,8 @@ package org.example.model;
 
 public class Jugador {
     private static int contadorJugadores = 0;
-    private static int vidaJugador;
-    private static int vidaPc;
+    private static int vidaJugador = 100;
+    private static int vidaPc = 100;
     private int idJugador;
     private static int eleccion;
     private static boolean papel;// Se genera el Geter y Seter para poder saber el tipo

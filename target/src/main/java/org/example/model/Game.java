@@ -43,14 +43,22 @@ public class Game {
                 Jugador.setTijera(true);
             }
             //Ataque de el jugador
-            Pelea.obtenerdano1();
+            int vidaPc = Jugador.getVidaPc();
+            vidaPc = Pelea.obtenerdano1(vidaPc);
+            Jugador.setVidaPc(vidaPc);
             int danodeAtaque = Pelea.getDanodeAtaque();
-            System.out.println("El ataque de el jugador" +danodeAtaque);
+            System.out.println("El ataque de el jugador :" +danodeAtaque);
+            System.out.println("La vida de la Pc es de  :" +vidaPc);
+
 
             //Ataque de la PC
-            Pelea.obtenerdano2();
+            int vidaJugador = Jugador.getVidaJugador();
+            vidaJugador = Pelea.obtenerdano2(vidaJugador);
+            Jugador.setVidaJugador(vidaJugador);
             int danoAtaquepc = Pelea.getDanoAtaquepc();
-            System.out.println("El ataque de la PC es de :" +danodeAtaque);
+            System.out.println("El ataque de la PC es de :" +danoAtaquepc);
+            System.out.println("La vida de el jugador es de " +vidaJugador);
+
 
 
 
