@@ -44,11 +44,13 @@ public class Game {
             }
             //Ataque de el jugador
             Pelea.obtenerdano1();
-            Pelea.getDanodeAtaque();
+            int danodeAtaque = Pelea.getDanodeAtaque();
+            System.out.println("El ataque de el jugador" +danodeAtaque);
 
             //Ataque de la PC
             Pelea.obtenerdano2();
-            Pelea.getDanoAtaquepc();
+            int danoAtaquepc = Pelea.getDanoAtaquepc();
+            System.out.println("El ataque de la PC es de :" +danodeAtaque);
 
 
 
