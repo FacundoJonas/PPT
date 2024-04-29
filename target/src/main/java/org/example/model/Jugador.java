@@ -11,13 +11,10 @@ public class Jugador {
     private static boolean tijera;// Se genera el Geter y Seter para poder saber el tipo
     private static int estatuspartida;
 
-    public void jugar() {
+    public final void jugar() {
         //Acciones de jugar del jugador
     }
-
-    public void obtener() {
-    }
-
+    public final void obtener() {}
     public int getEstatuspartida() {
         return estatuspartida;
     }

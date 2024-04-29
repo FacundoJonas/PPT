@@ -3,7 +3,7 @@ package org.example.model;
 import java.util.Scanner;
 
 public class Pantalla {
-    public static void menu() {
+    public final static void menu() {
         Scanner scanner = new Scanner(System.in);
         int opcion;
         int opciones = 0;
@@ -51,15 +51,21 @@ public class Pantalla {
             game.setEstatuspartida(estatuspartida);
             eleccion = opciones;
             game.setEleccion(eleccion);
+            Game.iniciarjuego(); // Se inicia a Game.
         }
     }
 
-    public static void pelea() {
+    public final static void pelea() {
+        //Siempre pantalla llama a game
         Scanner scanner = new Scanner(System.in);
         int ataque;
         Game game = Game.getInstance();
         int estatuspartida = game.getEstatuspartida(); // Obtener el valor de estatuspartida Por SINGLETON
         int eleccion = game.getEleccion(); //Obtener el valor de eleccion que se utiliza para saber si es piedra
+
+        //Tengo que enviarle a Pantalla la informacion que esta en game
+        //para que se muestre en pantalla siendo estas clases
+        //vidaPC / danodeAtaque / vidaJugador / danoAtaquePc
 
         //Temporalmente defino variables para realizar pruebas
         int vidaJugador = 0;
@@ -98,7 +104,7 @@ public class Pantalla {
                 System.out.println("La vida de el contrincante es de :" + vidaPc);
             }
         } else if (eleccion == 2) {
-            if (vidaJugador >0 && vidaPc >0) {
+            if (vidaJugador >0 & vidaPc >0){
                 do {
                     System.out.println("Atacar con asficciaconpapel ");
                     System.out.println("Atacar con navajadepapel");

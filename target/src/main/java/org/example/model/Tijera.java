@@ -1,6 +1,6 @@
 package org.example.model;
 
-public class Tijera {
+public final class Tijera {
     private int revesinesperado;
     private int cortecrujiente;
 }

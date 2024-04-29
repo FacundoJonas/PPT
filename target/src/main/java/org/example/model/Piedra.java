@@ -1,6 +1,6 @@
 package org.example.model;
 
 public class Piedra {
-    private int pulverizacionpetrea;
-    private int derrumbedevastador;
+    private final int pulverizacionpetrea = 0;
+    private final int derrumbedevastador = 0;
 }

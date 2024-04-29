@@ -18,7 +18,7 @@ public class Pelea {
 
     private static int danoAtaquepc;
 
-    public static int  obtenerdano1(int vidaPc){
+    public final static int  obtenerdano1(int vidaPc){
         // se recibe el estatus de partida que el mismo deberia ser 1 y se coloca en 2
         // haciendo referencia que se encuentra en la primera ronda de la pelea
         // estatus 3 (segunda ronda ) y 4 (ronda final ) , estatus 5 es definicion de partida
@@ -30,7 +30,7 @@ public class Pelea {
         vidaPc -= danodeAtaque;
         return vidaPc;
     }
-    public static int obtenerdano2(int vidaJugador){
+    public final static int obtenerdano2(int vidaJugador){
         //Lo utiizamos para obtener el random de PC
         int danoAtaquepc = DanoEfectuado.obtenerdanodeataque2();
         Pelea.setDanoAtaquepc(danoAtaquepc);
@@ -38,19 +38,19 @@ public class Pelea {
         return vidaJugador;
     }
 
-    public static int getDanodeAtaque() {
+    public final static int getDanodeAtaque() {
         return danodeAtaque;
     }
 
-    public static void setDanodeAtaque(int danodeAtaque) {
+    public final static void setDanodeAtaque(int danodeAtaque) {
         Pelea.danodeAtaque = danodeAtaque;
     }
 
-    public static int getDanoAtaquepc() {
+    public final static int getDanoAtaquepc() {
         return danoAtaquepc;
     }
 
-    public static void setDanoAtaquepc(int danoAtaquepc) {
+    public final static void setDanoAtaquepc(int danoAtaquepc) {
         Pelea.danoAtaquepc = danoAtaquepc;
     }
 }

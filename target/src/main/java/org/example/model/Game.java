@@ -3,6 +3,14 @@ package org.example.model;
 public class Game {
     private int eleccion;
     private int estatuspartida;
+    private static int danodeAtaque;  // de pelea
+    private static int danoAtaquepc;
+    private static int vidaJugador;
+    private static int vidaPc;
+    private String ganadorronda1;
+    private String ganadorronda2;
+    private String ganadorfinal;
+
 
     // 1. Instancia estática privada
     //Paso 1 para poder hacer una clase Singleton
@@ -43,12 +51,15 @@ public class Game {
                 Jugador.setTijera(true);
             }
             //Ataque de el jugador
+            //Esto debria ir en pelea o en Pelea Handler
+            // En base a la clase del 29/04
+
             int vidaPc = Jugador.getVidaPc();
+            Game.setVidaPc(vidaPc);//Se le asigna el valor de vida al jugador de la clase jugador
+
             vidaPc = Pelea.obtenerdano1(vidaPc);
             Jugador.setVidaPc(vidaPc);
             int danodeAtaque = Pelea.getDanodeAtaque();
-            System.out.println("El ataque de el jugador :" +danodeAtaque);
-            System.out.println("La vida de la Pc es de  :" +vidaPc);
 
 
             //Ataque de la PC
@@ -56,8 +67,6 @@ public class Game {
             vidaJugador = Pelea.obtenerdano2(vidaJugador);
             Jugador.setVidaJugador(vidaJugador);
             int danoAtaquepc = Pelea.getDanoAtaquepc();
-            System.out.println("El ataque de la PC es de :" +danoAtaquepc);
-            System.out.println("La vida de el jugador es de " +vidaJugador);
 
 
 
@@ -102,9 +111,65 @@ public class Game {
     public void setEstatuspartida(int estatuspartida) {
 
         this.estatuspartida = estatuspartida;
+
     }
 
+    public static int getVidaPc() {
+        return vidaPc;
+    }
 
+    public static void setVidaPc(int vidaPc) {
+        Game.vidaPc = vidaPc;
+    }
+
+    public static int getVidaJugador() {
+        return vidaJugador;
+    }
+
+    public static void setVidaJugador(int vidaJugador) {
+        Game.vidaJugador = vidaJugador;
+    }
+
+    public static int getDanodeAtaque() {
+        return danodeAtaque;
+    }
+
+    public static void setDanodeAtaque(int danodeAtaque) {
+        Game.danodeAtaque = danodeAtaque;
+    }
+
+    public static int getDanoAtaquepc() {
+        return danoAtaquepc;
+    }
+
+    public static void setDanoAtaquepc(int danoAtaquepc) {
+        Game.danoAtaquepc = danoAtaquepc;
+    }
+
+    public String getGanadorronda1() {
+        return ganadorronda1;
+    }
+
+    public void setGanadorronda1(String ganadorronda1) {
+        this.ganadorronda1 = ganadorronda1;
+    }
+
+    public String getGanadorronda2() {
+        return ganadorronda2;
+    }
+
+    public void setGanadorronda2(String ganadorronda2) {
+        this.ganadorronda2 = ganadorronda2;
+    }
+
+    public String getGanadorfinal() {
+        return ganadorfinal;
+    }
+
+    public void setGanadorfinal(String ganadorfinal) {
+        this.ganadorfinal = ganadorfinal;
+    }
 }
+
 
 

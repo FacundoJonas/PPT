@@ -1,6 +1,6 @@
 package org.example.model;
 
-public class Papel {
-    private int asficciaconpapel;
-    private int navajadepapel;
+public final class Papel {
+    private final int asficciaconpapel = 0;
+    private final int  navajadepapel = 0;
 }
