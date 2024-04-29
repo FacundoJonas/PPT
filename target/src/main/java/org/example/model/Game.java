@@ -55,11 +55,13 @@ public class Game {
             // En base a la clase del 29/04
 
             int vidaPc = Jugador.getVidaPc();
+            int danodeAtaque = Pelea.getDanodeAtaque();//Dano de ataque
             Game.setVidaPc(vidaPc);//Se le asigna el valor de vida al jugador de la clase jugador
+            Game.setDanodeAtaque(danodeAtaque);
 
             vidaPc = Pelea.obtenerdano1(vidaPc);
             Jugador.setVidaPc(vidaPc);
-            int danodeAtaque = Pelea.getDanodeAtaque();
+
 
 
             //Ataque de la PC

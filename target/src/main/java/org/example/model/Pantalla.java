@@ -2,6 +2,8 @@ package org.example.model;
 
 import java.util.Scanner;
 
+//Game.Getinsnace y lo que nesesite 
+
 public class Pantalla {
     public final static void menu() {
         Scanner scanner = new Scanner(System.in);
@@ -52,6 +54,13 @@ public class Pantalla {
             eleccion = opciones;
             game.setEleccion(eleccion);
             Game.iniciarjuego(); // Se inicia a Game.
+            if (eleccion == 1) {
+                Pantalla.pelea();
+            } else if (eleccion == 2) {
+                Pantalla.pelea2();
+            }else if (eleccion == 3 ){
+                Pantalla.pelea3();
+            }
         }
     }
 
@@ -95,16 +104,19 @@ public class Pantalla {
                 }
             } while (ataque != 1 && ataque != 2);
             if (ataque == 1) {
-                System.out.println("Tu vida es de" );//+ vidaJugador
+                System.out.println("Tu vida es de");//+ vidaJugador
                 System.out.println("Se ataco correctamente con pulverizacionpetrea  y se reaizo dano por :");// + danodeAtaque
-                System.out.println("La vida de el contrincante es de :" );//+ vidaPc
+                System.out.println("La vida de el contrincante es de :");//+ vidaPc
             } else if (ataque == 2) {
                 System.out.println("Tu vida es de" + vidaJugador);
                 System.out.println("Se ataco correctamente con derrumbedevastador  y se reaizo dano por :" + danodeAtaque);
                 System.out.println("La vida de el contrincante es de :" + vidaPc);
             }
-        } else if (eleccion == 2) {
-            if (vidaJugador >0 & vidaPc >0){
+        }
+    }
+    public final static void pelea2() {
+        if (eleccion == 2) {
+            if (vidaJugador > 0 & vidaPc > 0) {
                 do {
                     System.out.println("Atacar con asficciaconpapel ");
                     System.out.println("Atacar con navajadepapel");
@@ -130,7 +142,10 @@ public class Pantalla {
                 }
                 System.out.println("usted Murio");//aca se tiene que definir quien gano y quien perdio.
             }
-        } else if (eleccion == 3) {
+        }
+    }
+    public final static void pelea3 () {
+        if (eleccion == 3) {
             do {
                 System.out.println("Atacar con revesinesperado");
                 System.out.println("Atacar con cortecrujiente");
@@ -154,7 +169,6 @@ public class Pantalla {
                 System.out.println("Se ataco correctamente con cortecrujiente  y se reaizo dano por :" + danodeAtaque);
                 System.out.println("La vida de el contrincante es de :" + vidaPc);
             }
-            }
         }
     }
-
+}
