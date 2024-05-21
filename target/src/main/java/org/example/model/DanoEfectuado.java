@@ -14,7 +14,7 @@ public class DanoEfectuado {
 
     public final static int obtenerdanodeataque2(){
         // Generar un número aleatorio entre 1 y 100 para PC
-        return new Random().nextInt(99) + 1;
+        return new Random().nextInt( 99) + 1;
     }
 
     public final static int getDanoAtaque() {

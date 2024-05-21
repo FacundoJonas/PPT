@@ -1,4 +1,6 @@
-package org.example.model;
+package org.example.view;
+
+import org.example.controller.Game;
 
 import java.util.Scanner;
 
@@ -115,6 +117,21 @@ public class Pantalla {
         }
     }
     public final static void pelea2() {
+        Scanner scanner = new Scanner(System.in);
+        int ataque;
+        Game game = Game.getInstance();
+        int estatuspartida = game.getEstatuspartida(); // Obtener el valor de estatuspartida Por SINGLETON
+        int eleccion = game.getEleccion(); //Obtener el valor de eleccion que se utiliza para saber si es piedra
+        //Tengo que enviarle a Pantalla la informacion que esta en game
+        //para que se muestre en pantalla siendo estas clases
+        //vidaPC / danodeAtaque / vidaJugador / danoAtaquePc
+
+        //Temporalmente defino variables para realizar pruebas
+        int vidaJugador = 0;
+        int vidaPc = 0;
+        int danodeAtaque = 0;
+        //Temporalmente defino las variables para probar main
+
         if (eleccion == 2) {
             if (vidaJugador > 0 & vidaPc > 0) {
                 do {
@@ -145,6 +162,21 @@ public class Pantalla {
         }
     }
     public final static void pelea3 () {
+        Scanner scanner = new Scanner(System.in);
+        int ataque;
+        Game game = Game.getInstance();
+        int estatuspartida = game.getEstatuspartida(); // Obtener el valor de estatuspartida Por SINGLETON
+        int eleccion = game.getEleccion(); //Obtener el valor de eleccion que se utiliza para saber si es piedra
+        //Tengo que enviarle a Pantalla la informacion que esta en game
+        //para que se muestre en pantalla siendo estas clases
+        //vidaPC / danodeAtaque / vidaJugador / danoAtaquePc
+
+        //Temporalmente defino variables para realizar pruebas
+        int vidaJugador = 0;
+        int vidaPc = 0;
+        int danodeAtaque = 0;
+        //Temporalmente defino las variables para probar main
+
         if (eleccion == 3) {
             do {
                 System.out.println("Atacar con revesinesperado");

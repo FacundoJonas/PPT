@@ -1,7 +1,14 @@
-package org.example.model;
+package org.example.controller;
+
+import org.example.model.Jugador;
+import org.example.model.Pelea;
+import org.example.model.PeleaHandler;
+
+import java.util.Random;
 
 public class Game {
     private int eleccion;
+    private int eleccionPC;
     private int estatuspartida;
     private static int danodeAtaque;  // de pelea
     private static int danoAtaquepc;
@@ -32,6 +39,7 @@ public class Game {
 
     public static void iniciarjuego(){
         Game game = Game.getInstance();
+        Random random = new Random();
         int estatuspartida = game.getEstatuspartida(); // Obtener el valor de estatuspartida Por SINGLETON
         int eleccion = game.getEleccion(); //Obtener el valor de eleccion que se utiliza para saber si es piedra
         if (estatuspartida == 1) {
@@ -50,23 +58,29 @@ public class Game {
                 //el jugador eligio Tijera
                 Jugador.setTijera(true);
             }
+            //Se define si va a ser piedra , papel o tijera la PC
+            int eleccionPC = game.getEleccionPC();
+            eleccionPC = random.nextInt(3 - 1 + 1) + 1;
+            game.setEleccionPC(eleccionPC);
+            // Se le asigna el valor a EleccionPC para posteriormente consultarlo
+            // en la clase de Pelea ya que la misma debe manejar las situaciones.
+
             //Ataque de el jugador
             //Esto debria ir en pelea o en Pelea Handler
             // En base a la clase del 29/04
-
             int vidaPc = Jugador.getVidaPc();
             int danodeAtaque = Pelea.getDanodeAtaque();//Dano de ataque
             Game.setVidaPc(vidaPc);//Se le asigna el valor de vida al jugador de la clase jugador
             Game.setDanodeAtaque(danodeAtaque);
 
-            vidaPc = Pelea.obtenerdano1(vidaPc);
+            vidaPc = PeleaHandler.peleahandlerJugador(vidaPc,eleccionPC,eleccion);
             Jugador.setVidaPc(vidaPc);
 
 
 
             //Ataque de la PC
             int vidaJugador = Jugador.getVidaJugador();
-            vidaJugador = Pelea.obtenerdano2(vidaJugador);
+            vidaJugador = PeleaHandler.peleahandlerPc(vidaJugador,eleccionPC,eleccion);
             Jugador.setVidaJugador(vidaJugador);
             int danoAtaquepc = Pelea.getDanoAtaquepc();
 
@@ -171,6 +185,10 @@ public class Game {
     public void setGanadorfinal(String ganadorfinal) {
         this.ganadorfinal = ganadorfinal;
     }
+
+    public int getEleccionPC() {return eleccionPC;}
+
+    public void setEleccionPC(int eleccionPC) {this.eleccionPC = eleccionPC;}
 }
 
 

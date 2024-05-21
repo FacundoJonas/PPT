@@ -1,5 +1,4 @@
 package org.example.model;
-
 import java.util.Scanner;
 
 public class Pelea {
@@ -18,13 +17,10 @@ public class Pelea {
 
     private static int danoAtaquepc;
 
-    public final static int  obtenerdano1(int vidaPc){
-        // se recibe el estatus de partida que el mismo deberia ser 1 y se coloca en 2
-        // haciendo referencia que se encuentra en la primera ronda de la pelea
-        // estatus 3 (segunda ronda ) y 4 (ronda final ) , estatus 5 es definicion de partida
+    private static int eleccionPC; // Se utiliza para definirle piedra, papell o tijera a la PC
+                                    // y asi aplicar los danos especiales sobre la pelea
 
-        //Pelea ronda 1
-        //Creamos una instancia de Jugador.
+    public final static int  obtenerdano1(int vidaPc, int eleccionPC){
         int danodeAtaque = DanoEfectuado.obtenerDanodeAtaque();
         Pelea.setDanodeAtaque(danodeAtaque);
         vidaPc -= danodeAtaque;
