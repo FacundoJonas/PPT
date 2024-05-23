@@ -1,0 +1,13 @@
+
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÍãöÇ
+L
+java:S2696"6Make the enclosing method "static" or remove this set.(éÔÑ
+K
+java:S2209"5Change this instance-reference to a static reference.(éÔÑ
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(”Í–²şÿÿÿÿ
+P
+java:S2209"5Change this instance-reference to a static reference.(”Í–²şÿÿÿÿ
+K
+java:S1068"5Remove this unused "contadorJugadores" private field.(®§Û 
