@@ -1,7 +1,15 @@
 
+W
+java:S1118":Add a private constructor to hide the implicit public one.(£ÒäØ8¶Ğë¼ú1
+b
+java:S1124	"EReorder the modifiers to comply with the Java Language Specification.(ùÏØ8¸Ğë¼ú1
 f
-java:S2119	"Save and re-use this "Random".(Íæ ğüÿÿÿÿ8§´¸Úğ1J$b5503af0-98c4-434e-884b-67d9a5bca2f9
+java:S2119"Save and re-use this "Random".(Íæ ğüÿÿÿÿ8§´¸Úğ1J$b5503af0-98c4-434e-884b-67d9a5bca2f9
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(„›˜âıÿÿÿÿ8»Ğë¼ú1
 f
-java:S2119"Save and re-use this "Random".(Íæ ğüÿÿÿÿ8·´¸Úğ1J$e63f4d49-1293-43b0-842d-3693d333776d
-v
-java:S1068".Remove this unused "danoAtaque" private field.(Œ«²üÿÿÿÿ8·´¸Úğ1J$301429a4-de15-4f48-b856-017091e5df85
+java:S2119"Save and re-use this "Random".(Íæ ğüÿÿÿÿ8·´¸Úğ1J$e63f4d49-1293-43b0-842d-3693d333776d
+a
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Õì¬a8½Ğë¼ú1
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ş¿Ù‚úÿÿÿÿ8½Ğë¼ú1

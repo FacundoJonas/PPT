@@ -1,43 +1,29 @@
 
-—
-java:S1450"TRemove the "papel" field and declare it as a local variable in the relevant methods.(Á³×€8â´¯Úğ1J$67da544c-6b78-4dd3-86e3-21a7c5cc7127
-
-java:S1450"URemove the "piedra" field and declare it as a local variable in the relevant methods.(ÑøÚÈşÿÿÿÿ8â´¯Úğ1J$fee9ae41-f802-4e18-9059-db8b0c2d9e47
-˜
-java:S1450"URemove the "tijera" field and declare it as a local variable in the relevant methods.(ãè¶•8â´¯Úğ1J$6e32dad9-e925-4547-a23a-e9374afa8799
-…
-java:S1854("=Remove this useless assignment to local variable "idJugador".(Åœ–Üüÿÿÿÿ8â´¯Úğ1J$f42813f8-e425-48fe-9224-81df98b630e7
-Š
-java:S18549"BRemove this useless assignment to local variable "estatuspartida".(Ú›ŠŠûÿÿÿÿ8…†¼Úğ1J$b892887b-17b8-40fb-bc69-55a583ab38c1
-x
-java:S2209'"5Change this instance-reference to a static reference.(î‚˜8â´¯Úğ1J$bfdbe89f-2abb-4146-8535-20d2da12d7c9
-v
-java:S1481(".Remove this unused "idJugador" local variable.(Åœ–Üüÿÿÿÿ8ñ´¯Úğ1J$e2ad2b98-a81f-41fc-bf23-2b480aca11fd
-x
-java:S2209)"5Change this instance-reference to a static reference.(Û¶‰Ë8ñ´¯Úğ1J$96f21947-317e-4d82-887f-7763f3409dc7
-_
-java:S27579"Was "+=" meant instead?(Ú›ŠŠûÿÿÿÿ8…†¼Úğ1J$d1df0b0d-5e34-44b4-b525-73a5fffc299a
-k	java:S108:")Either remove or fill this block of code.(šëĞÇ8…†¼Úğ1J$d262aa3c-75f2-4951-bd09-45e98c1c02d1
-r	java:S106E"+Replace this use of System.out by a logger.(áÇüÿÿÿÿ8”†¼Úğ1J$2cc9553b-4f85-4663-907f-bc3da4f9a88d
-m	java:S106G"+Replace this use of System.out by a logger.(ğË»©8ĞØ ëğ1J$6f3711ac-350d-4e78-9a4e-f8e7a432bd39
+t
+java:S1172"1Remove this unused method parameter "eleccionPC".(­á©ê8æ‰½ú1J$dec13713-224b-4711-8f3b-f900521f9273
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(­á©ê8è‰½ú1J$11a896d6-89c4-449c-abe6-000225e209ae
+
+java:S1124!"EReorder the modifiers to comply with the Java Language Specification.(õ—œ»ÿÿÿÿÿ8ê‰½ú1J$04efa7ce-a2cc-4423-9d5c-c27ea961c80f
+
+java:S1124)"EReorder the modifiers to comply with the Java Language Specification.(æ«ıæüÿÿÿÿ8î‰½ú1J$9cb77efb-a5fa-4601-a761-0d9a11e78ca9
+
+java:S1124-"EReorder the modifiers to comply with the Java Language Specification.(ÇÄºŞıÿÿÿÿ8ï‰½ú1J$012785ec-8834-461a-80db-e54df76dc245
+ˆ
+java:S11241"EReorder the modifiers to comply with the Java Language Specification.(ùíÍ´8ï‰½ú1J$9e6dcccc-4ab5-4808-9697-6b5ef1456011
+
+java:S11245"EReorder the modifiers to comply with the Java Language Specification.(Ä«ßêúÿÿÿÿ8ğ‰½ú1J$090084b4-633c-44ba-91c5-bcd0ed5ada02
 m
-java:S1068	"+Remove this unused "idpelea" private field.(Í„E8ñ´¯Úğ1J$b7216fae-f446-4d3d-bdf7-1f41ccb306a2
+java:S1068"+Remove this unused "idpelea" private field.(Í„E8ñ‰½ú1J$8a6f9b3a-ccc3-4d8e-97c6-fd15498f9c9f
 y
-java:S1068
-"1Remove this unused "ganadorronda1" private field.(Ã„Ä¿şÿÿÿÿ8ñ´¯Úğ1J$3f22a210-b0f8-4aaa-8f1a-b2c370ed010a
+java:S1068"1Remove this unused "ganadorronda1" private field.(Ã„Ä¿şÿÿÿÿ8ñ‰½ú1J$950a0434-cea0-4345-abf9-207624ed1808
 y
-java:S1068"1Remove this unused "ganadorronda2" private field.(É“ˆ€ÿÿÿÿÿ8ñ´¯Úğ1J$3333268c-2911-4de6-b82b-bcaa074ce720
+java:S1068	"1Remove this unused "ganadorronda2" private field.(É“ˆ€ÿÿÿÿÿ8ñ‰½ú1J$fcf652dd-4f66-449b-a9d8-5be4dec5b2ff
 r
-java:S1068"0Remove this unused "ganadorfinal" private field.(ÆÚÚm8ñ´¯Úğ1J$f0c85204-876f-438a-87ad-bfaa85aeb470
-o
-java:S1068",Remove this unused "eleccion" private field.(ûœ…Ø8ñ´¯Úğ1J$1f116935-bbac-4f0f-a1c6-636cc903ecc8
+java:S1068"0Remove this unused "ganadorfinal" private field.(ÆÚÚm8ò‰½ú1J$185799b2-0bf0-4f6f-b088-651899e65ff0
+q
+java:S1068".Remove this unused "eleccionPC" private field.(ôşŸ8ò‰½ú1J$12d0af07-84e5-4ad0-9b02-b3afdd4fab74
 s
-java:S1068"0Remove this unused "vidaRestante" private field.(±³¸8ñ´¯Úğ1J$1e35d99c-a306-4901-9dc4-d87b7e077de5
+java:S1068"0Remove this unused "danoEspecial" private field.(ùÏµÑ8ò‰½ú1J$2f085e6f-da87-42a5-a4a5-6cf0e24dbe2f
 u
-java:S1068"2Remove this unused "estatuspartida" private field.(Îãë8ñ´¯Úğ1J$4b7529bd-30e4-4f75-8241-f07f0a79a9ea
-r
-java:S1068"*Remove this unused "piedra" private field.(ÑøÚÈşÿÿÿÿ8ñ´¯Úğ1J$b583dd71-eb5c-4c90-8635-51a000f517d2
-l
-java:S1068")Remove this unused "papel" private field.(Á³×€8ñ´¯Úğ1J$e79363e1-17a1-480a-ac10-604b65c67e30
-m
-java:S1068"*Remove this unused "tijera" private field.(ãè¶•8ñ´¯Úğ1J$7011988f-6d77-4486-b8d0-386545a1ae55
+java:S1068"2Remove this unused "danoEspecialPC" private field.(–Õƒ8¾¹½ú1J$fcfda7e9-6bc4-4807-b946-4ac8354ba294

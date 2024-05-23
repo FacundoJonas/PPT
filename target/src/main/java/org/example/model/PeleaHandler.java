@@ -8,7 +8,7 @@ public class PeleaHandler {
         //Pelea ronda 1
         //Codigo de las acciones de pelea con Danoespecial ------------------
         if (eleccion == 1 & eleccionPC == 3){
-            
+            int danoEspecial =
         } else if (eleccion == 2 & eleccionPC == 1) {
             
         } else if (eleccion == 3 & eleccionPC == 2) {

@@ -1,10 +1,6 @@
 
-]
--target/src/main/java/org/example/Jugador.java,4\0\40efbb73cf4337a99bc408c643194cd7b6bb8541
 a
 1target/src/main/java/org/example/model/Pelea.java,d\7\d7ac31de783e1d2c952ed7a6b51a5fca23cc4f93
-d
-4target/src/main/java/org/example/model/Pantalla.java,2\d\2d27b4fbd9353882365aab512f6020e07f0f682c
 i
 9target/src/main/java/org/example/model/DanoEfectuado.java,6\2\623b2cfd5758aa40b5a3095ba73b46690bd16c3b
 Å
@@ -45,5 +41,19 @@ Q.idea/sonarlint/securityhotspotstore/8/5/859f5c41145b147fd04432c7e7a3c3bacda18b
 Q.idea/sonarlint/securityhotspotstore/f/c/fc51aad2f1ebe72ffedf49fa3dfea24b513ff6fe,9\2\92f6b8ed4f7b37c3c344c4307f2fbb1f9b83c15c
 Å
 Q.idea/sonarlint/securityhotspotstore/4/9/49f85f2528db15dfa47b1e7896e25feb60a92042,5\f\5fe36b3ed9dd7face867d2f27d312d009e509161
-Z
-*target/src/main/java/org/example/Game.java,b\a\ba333ec6cd09d0e7cafce4b3d6e3c8cd19729e36
+b
+2target/src/main/java/org/example/model/Tijera.java,3\5\3573468184e178df9dc2b71e9f1b661775a0abcb
+a
+1target/src/main/java/org/example/model/Papel.java,4\e\4e3e3c14d41c334866f29e8353d3f558aa3615cd
+h
+8target/src/main/java/org/example/model/PeleaHandler.java,9\7\97a812e0eb7f3addacf57dea09c70b23543bc850
+b
+2target/src/main/java/org/example/model/Piedra.java,7\8\784fe4d950adc0fb432e806ce61fc18d51353053
+b
+2target/src/main/java/org/example/model/Rondas.java,5\d\5daf6e1c9cfcc151339eeb5825a737659609d7a6
+e
+5target/src/main/java/org/example/controller/Game.java,8\b\8b9fb4d84f158f602515e167e48fe758c7e135ed
+h
+8target/src/main/java/org/example/model/Danoespecial.java,e\4\e40bda64a48f1dc60f8bd8881d6e0234592fc5a5
+c
+3target/src/main/java/org/example/model/Jugador.java,8\1\81c764b32d644e3d3372ca5596d19490d0a30211

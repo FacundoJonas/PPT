@@ -20,6 +20,10 @@ public class Pelea {
     private static int eleccionPC; // Se utiliza para definirle piedra, papell o tijera a la PC
                                     // y asi aplicar los danos especiales sobre la pelea
 
+    private static int danoEspecial; // Es la variable que se va a usar para llamar a dano especiail
+                                        // en los casos de los handlers
+    private static int danoEspecialPC;
+
     public final static int  obtenerdano1(int vidaPc, int eleccionPC){
         int danodeAtaque = DanoEfectuado.obtenerDanodeAtaque();
         Pelea.setDanodeAtaque(danodeAtaque);
