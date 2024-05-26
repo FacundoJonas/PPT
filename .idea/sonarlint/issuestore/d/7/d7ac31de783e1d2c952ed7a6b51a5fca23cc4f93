@@ -1,29 +1,29 @@
 
 t
-java:S1172"1Remove this unused method parameter "eleccionPC".(­á©ê8æ‰½ú1J$dec13713-224b-4711-8f3b-f900521f9273
+java:S1172"1Remove this unused method parameter "eleccionPC".(­á©ê8æ‰½ú1J$39aac751-1a48-46db-94c9-6a0aaec2935e
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(­á©ê8è‰½ú1J$11a896d6-89c4-449c-abe6-000225e209ae
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(­á©ê8è‰½ú1J$2bf01111-df06-46bb-9e6a-f21ba5e5aefc
 
-java:S1124!"EReorder the modifiers to comply with the Java Language Specification.(õ—œ»ÿÿÿÿÿ8ê‰½ú1J$04efa7ce-a2cc-4423-9d5c-c27ea961c80f
+java:S1124!"EReorder the modifiers to comply with the Java Language Specification.(õ—œ»ÿÿÿÿÿ8ê‰½ú1J$5365df2b-260d-4ea5-91c8-a2984dcac77a
 
-java:S1124)"EReorder the modifiers to comply with the Java Language Specification.(æ«ıæüÿÿÿÿ8î‰½ú1J$9cb77efb-a5fa-4601-a761-0d9a11e78ca9
+java:S1124)"EReorder the modifiers to comply with the Java Language Specification.(æ«ıæüÿÿÿÿ8î‰½ú1J$2cd1b955-0ce5-4d2c-9c53-fe3cb29a4d9e
 
-java:S1124-"EReorder the modifiers to comply with the Java Language Specification.(ÇÄºŞıÿÿÿÿ8ï‰½ú1J$012785ec-8834-461a-80db-e54df76dc245
+java:S1124-"EReorder the modifiers to comply with the Java Language Specification.(ÇÄºŞıÿÿÿÿ8ï‰½ú1J$b56abfd7-354d-46ef-aa6a-9235e8d90e14
 ˆ
-java:S11241"EReorder the modifiers to comply with the Java Language Specification.(ùíÍ´8ï‰½ú1J$9e6dcccc-4ab5-4808-9697-6b5ef1456011
+java:S11241"EReorder the modifiers to comply with the Java Language Specification.(ùíÍ´8ï‰½ú1J$a9f68d24-7158-4005-ab3b-e7bae755f2f6
 
-java:S11245"EReorder the modifiers to comply with the Java Language Specification.(Ä«ßêúÿÿÿÿ8ğ‰½ú1J$090084b4-633c-44ba-91c5-bcd0ed5ada02
+java:S11245"EReorder the modifiers to comply with the Java Language Specification.(Ä«ßêúÿÿÿÿ8ğ‰½ú1J$589052d2-4db0-4c4e-adad-33574cb980ea
 m
-java:S1068"+Remove this unused "idpelea" private field.(Í„E8ñ‰½ú1J$8a6f9b3a-ccc3-4d8e-97c6-fd15498f9c9f
+java:S1068"+Remove this unused "idpelea" private field.(Í„E8ñ‰½ú1J$08032856-97c6-4ad0-ac99-21f2198ed6d4
 y
-java:S1068"1Remove this unused "ganadorronda1" private field.(Ã„Ä¿şÿÿÿÿ8ñ‰½ú1J$950a0434-cea0-4345-abf9-207624ed1808
+java:S1068"1Remove this unused "ganadorronda1" private field.(Ã„Ä¿şÿÿÿÿ8ñ‰½ú1J$153da953-e960-4800-8ca9-c45ed885b6c3
 y
-java:S1068	"1Remove this unused "ganadorronda2" private field.(É“ˆ€ÿÿÿÿÿ8ñ‰½ú1J$fcf652dd-4f66-449b-a9d8-5be4dec5b2ff
+java:S1068	"1Remove this unused "ganadorronda2" private field.(É“ˆ€ÿÿÿÿÿ8ñ‰½ú1J$84d42b6c-15e4-4a7c-973b-208272d5f5d9
 r
-java:S1068"0Remove this unused "ganadorfinal" private field.(ÆÚÚm8ò‰½ú1J$185799b2-0bf0-4f6f-b088-651899e65ff0
+java:S1068"0Remove this unused "ganadorfinal" private field.(ÆÚÚm8ò‰½ú1J$ef3bc362-a3f2-408f-b342-545a72a533c9
 q
-java:S1068".Remove this unused "eleccionPC" private field.(ôşŸ8ò‰½ú1J$12d0af07-84e5-4ad0-9b02-b3afdd4fab74
+java:S1068".Remove this unused "eleccionPC" private field.(ôşŸ8ò‰½ú1J$2c7b1422-15d8-4923-b7ca-62c8a8b91b91
 s
-java:S1068"0Remove this unused "danoEspecial" private field.(ùÏµÑ8ò‰½ú1J$2f085e6f-da87-42a5-a4a5-6cf0e24dbe2f
+java:S1068"0Remove this unused "danoEspecial" private field.(ùÏµÑ8ò‰½ú1J$357b63bb-6840-4fd8-99d1-e8aae98bf0a1
 u
-java:S1068"2Remove this unused "danoEspecialPC" private field.(–Õƒ8¾¹½ú1J$fcfda7e9-6bc4-4807-b946-4ac8354ba294
+java:S1068"2Remove this unused "danoEspecialPC" private field.(–Õƒ8¾¹½ú1J$708a46f2-b6f5-44b1-909b-e969e06ef5f7

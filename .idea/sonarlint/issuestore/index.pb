@@ -34,8 +34,6 @@ Q.idea/sonarlint/securityhotspotstore/3/8/38035c84714987dc9e2d90158004476338e1c9
 Å
 Q.idea/sonarlint/securityhotspotstore/3/7/37efa47dead9be90a28b2ed48b6e427aabd7902c,d\6\d61f381099d1e2ac89246fc59da2e0de2b13f303
 Å
-Q.idea/sonarlint/securityhotspotstore/8/1/8127eb0390e5da8f2b74482745b22210da1aa2f8,7\0\708cec010cfa1bae19745af8af01c1ca4df6cd57
-Å
 Q.idea/sonarlint/securityhotspotstore/8/5/859f5c41145b147fd04432c7e7a3c3bacda18b89,e\2\e25de7a1e94900c5414363409c5bebd60cf57d7b
 Å
 Q.idea/sonarlint/securityhotspotstore/f/c/fc51aad2f1ebe72ffedf49fa3dfea24b513ff6fe,9\2\92f6b8ed4f7b37c3c344c4307f2fbb1f9b83c15c
@@ -57,3 +55,15 @@ h
 8target/src/main/java/org/example/model/Danoespecial.java,e\4\e40bda64a48f1dc60f8bd8881d6e0234592fc5a5
 c
 3target/src/main/java/org/example/model/Jugador.java,8\1\81c764b32d644e3d3372ca5596d19490d0a30211
+w
+G.idea/sonarlint/issuestore/9/7/97a812e0eb7f3addacf57dea09c70b23543bc850,1\c\1c137509b799e2fe1b1aba7b049a80b26464cedf
+Å
+Q.idea/sonarlint/securityhotspotstore/8/1/81c764b32d644e3d3372ca5596d19490d0a30211,7\9\796edc28ac2c4f7a10b9604e6d3608ccac61dc48
+Å
+Q.idea/sonarlint/securityhotspotstore/9/7/97a812e0eb7f3addacf57dea09c70b23543bc850,4\5\45bfec2281710b960336c46a940428da6cc5bbef
+Å
+Q.idea/sonarlint/securityhotspotstore/8/b/8b9fb4d84f158f602515e167e48fe758c7e135ed,c\3\c3ad6fccf7698fabc65c295645c1ae82016a176f
+c
+3target/src/main/java/org/example/view/Pantalla.java,8\a\8ab27cc6499a78a01272cdf812de35c9a9fdf329
+Z
+*target/src/main/java/org/example/Main.java,b\f\bf6efd1bdb4d007b8186ef3d37f196a8a1bd0420

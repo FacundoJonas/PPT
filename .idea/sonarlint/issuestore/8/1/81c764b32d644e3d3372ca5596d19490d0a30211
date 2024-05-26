@@ -1,13 +1,13 @@
 
-—
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÍãöÇ
-L
-java:S2696"6Make the enclosing method "static" or remove this set.(éÔÑ
-K
-java:S2209"5Change this instance-reference to a static reference.(éÔÑ
-Q
-java:S2696"6Make the enclosing method "static" or remove this set.(”Í–²şÿÿÿÿ
-P
-java:S2209"5Change this instance-reference to a static reference.(”Í–²şÿÿÿÿ
-K
-java:S1068"5Remove this unused "contadorJugadores" private field.(®§Û 
+½
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÍãöÇJ$5caf1954-5bb8-46cb-9641-0c6628600685
+r
+java:S2696"6Make the enclosing method "static" or remove this set.(éÔÑJ$12ba1d63-a27a-4db8-a010-d1fa54759ae7
+q
+java:S2209"5Change this instance-reference to a static reference.(éÔÑJ$f49c7172-3130-4fbb-ae7c-d1e385bcbb6b
+w
+java:S2696"6Make the enclosing method "static" or remove this set.(”Í–²şÿÿÿÿJ$9d619ce7-8333-475e-983b-b8943c499dba
+v
+java:S2209"5Change this instance-reference to a static reference.(”Í–²şÿÿÿÿJ$77563d5f-95ed-417c-ae8b-6240beba2ed2
+q
+java:S1068"5Remove this unused "contadorJugadores" private field.(®§Û J$434847c6-c225-4446-8dab-4554b33e0118
