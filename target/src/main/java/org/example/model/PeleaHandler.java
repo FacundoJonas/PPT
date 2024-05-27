@@ -14,6 +14,7 @@ public class PeleaHandler {
         } else if (eleccion == 3 & eleccionPC == 2) {
             
         }
+        //aa
         //-------------------------------------------------------------------
         vidaPc = Game.getVidaPc();
         int danodeAtaque = Game.getDanodeAtaque();// Corregirlo ya que Pelea se debe comunicar con danoataque
